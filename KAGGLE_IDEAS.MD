@@ -3,7 +3,7 @@
 - Support for sales: the LLM provides useful contacts for the desired solutions, given as a prompt
 - Exploiting the big context window of Gemini, as a big amount of information can be provided
 ### DATA
-- Hitachi Lumada AI (public data)
+- Using Lumada AI (public data) https://github.com/SecchiAlessandro/gpt-crawler
 - Provided solutions to be available - .json PUBLIC data, provided by PlayWright crawler
 - Data in Google Cloud Storage to be loaded inton Kaggle
 
