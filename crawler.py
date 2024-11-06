@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 from urllib.parse import urljoin
+from collections import deque
 
 VALID_GET_RESPONSE = 200
 
@@ -55,26 +56,35 @@ def write_json_from_site_data(siteData: dict, filePath: str) -> None:
     return
 
 
-def download_all_pages(url: str, parentFolder: str, savePath: str, visited=None):
+def download_all_pages(
+    rootUrl: str, parentFolder: str, savePath: str, maxPages: int = 100
+) -> list[str]:
     """
     Recursive function to download pages and subpages
     """
-    if visited is None:
-        visited = set()
-    if url in visited:
-        return
-    visited.add(url)
+    visitedUrls = set()
+    stack = deque([rootUrl])
 
-    soup = soup_page(url)
-    jsonFileFromSite = download_page(soup, url, savePath)
-    print(f"JSON file {jsonFileFromSite} created from url {url}")
+    jsonFiles = []
+    while stack and len(jsonFiles) < maxPages:
+        url = stack.pop()
 
-    links = get_links(soup, url, parentFolder)
-    for link in links:
-        full_link = urljoin(url, link)
-        if full_link not in visited and "http" in full_link:
-            download_all_pages(full_link, parent_folder, savePath, visited)
-            # TODO make it iterative (DFS)
+        if url in visitedUrls:
+            continue
+        visitedUrls.add(url)
+
+        soup = soup_page(url)
+        jsonFileFromSite = download_page(soup, url, savePath)
+        print(f"JSON file {jsonFileFromSite} created from url {url}")
+        jsonFiles.append(jsonFileFromSite)
+
+        links = get_links(soup, url, parentFolder)
+        for link in links:
+            fullLink = urljoin(url, link)
+            if fullLink not in visitedUrls and "http" in fullLink:
+                stack.append(fullLink)
+
+    return jsonFiles
 
 
 def clean_json_files(jsonFilesFolder: str, overwrite: bool = True) -> str:
@@ -110,11 +120,11 @@ def merge_json_files(jsonFilesFolder: str, targetFile: str = "_merged.json") -> 
 def crawling_hard(root: str, parentFolder: str, savePath: str = "crawled") -> None:
     os.makedirs(savePath, exist_ok=True)
 
-    download_all_pages(root, parentFolder, savePath)
+    jsonFiles = download_all_pages(root, parentFolder, savePath, 10)
 
     clean_json_files(savePath)
 
-    mergedJsonName = "_merged"
+    mergedJsonName = "_merged.json"
     mergedJsonPath = merge_json_files(savePath, mergedJsonName)
     return
 
