@@ -142,10 +142,12 @@ def json_to_txt(savePath: str, jsonFilePath: str, targetName: str = "") -> str:
     return resultFilePath
 
 
-def crawling_hard(root: str, parentFolder: str, savePath: str = "crawled") -> None:
+def crawling_hard(
+    root: str, parentFolder: str, savePath: str = "crawled", numPages: int = 5
+) -> None:
     os.makedirs(savePath, exist_ok=True)
 
-    jsonFiles = download_all_pages(root, parentFolder, savePath, 5)
+    jsonFiles = download_all_pages(root, parentFolder, savePath, numPages)
 
     clean_json_files(savePath)
 
@@ -159,4 +161,5 @@ def crawling_hard(root: str, parentFolder: str, savePath: str = "crawled") -> No
 parent_folder = "/products-and-solutions/"
 initial_url = "https://www.hitachienergy.com/products-and-solutions/"
 save_folder = "crawled"
-crawling_hard(initial_url, parent_folder, save_folder)
+num_pages_to_download = 5
+crawling_hard(initial_url, parent_folder, save_folder, num_pages_to_download)
