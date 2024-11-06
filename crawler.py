@@ -77,13 +77,49 @@ def download_all_pages(url: str, parentFolder: str, savePath: str, visited=None)
             # TODO make it iterative (DFS)
 
 
+def clean_json_files(jsonFilesFolder: str, overwrite: bool = True) -> str:
+    """
+    Function to remove unneded text from a json file containing web page content
+    """
+    pass
+
+
+def merge_json_files(jsonFilesFolder: str, targetFile: str = "_merged.json") -> str:
+    """
+    Function to merge multiple json files into a single one
+    """
+    fileList = [
+        os.path.join(jsonFilesFolder, file)
+        for file in os.listdir(jsonFilesFolder)
+        if file.endswith(".json") and file != targetFile
+    ]
+    if fileList:
+        resultFileContent = []
+        for file in fileList:
+            with open(file, "r") as f:
+                jsonData = json.load(f)
+                resultFileContent.append(jsonData)
+
+        resultFilePath = os.path.join(jsonFilesFolder, targetFile)
+        with open(resultFilePath, "w") as f:
+            json.dump(resultFileContent, f, indent=2)
+        return resultFilePath
+    return ""
+
+
 def crawling_hard(root: str, parentFolder: str, savePath: str = "crawled") -> None:
     os.makedirs(savePath, exist_ok=True)
 
-    download_all_pages(root, parent_folder, savePath)
+    download_all_pages(root, parentFolder, savePath)
+
+    clean_json_files(savePath)
+
+    mergedJsonName = "_merged"
+    mergedJsonPath = merge_json_files(savePath, mergedJsonName)
     return
 
 
 parent_folder = "/products-and-solutions/"
 initial_url = "https://www.hitachienergy.com/products-and-solutions/"
-crawling_hard(initial_url, parent_folder)
+save_folder = "crawled"
+crawling_hard(initial_url, parent_folder, save_folder)
