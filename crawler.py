@@ -116,6 +116,32 @@ def merge_json_files(jsonFilesFolder: str, targetFile: str = "_merged.json") -> 
     return ""
 
 
+def json_to_txt(savePath: str, jsonFilePath: str, targetName: str = "") -> str:
+    if targetName == "":
+        targetName = os.path.basename(jsonFilePath).replace(".json", ".txt")
+
+    with open(jsonFilePath, "r") as f:
+        data = json.load(f)
+
+    resultFilePath = os.path.join(savePath, targetName)
+    with open(resultFilePath, "w") as f:
+        for numPage, webpage in enumerate(data):
+            pageTitle = webpage.get("title", "")
+            f.write(
+                f'The page number {numPage+1} with name "{pageTitle[0]}" has the following content:\n'
+            )
+
+            pageContent = webpage.get("content", "")
+            for row in pageContent:
+                f.write(f"{row} \n")
+
+            f.write(
+                f'The page number {numPage+1} with name "{pageTitle[0]}" ends here.\n\n'
+            )
+
+    return resultFilePath
+
+
 def crawling_hard(root: str, parentFolder: str, savePath: str = "crawled") -> None:
     os.makedirs(savePath, exist_ok=True)
 
@@ -125,6 +151,8 @@ def crawling_hard(root: str, parentFolder: str, savePath: str = "crawled") -> No
 
     mergedJsonName = "_merged.json"
     mergedJsonPath = merge_json_files(savePath, mergedJsonName)
+
+    plainText = json_to_txt(savePath, mergedJsonPath)
     return
 
 
