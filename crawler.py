@@ -34,10 +34,10 @@ def download_page(soup: BeautifulSoup, url: str, savePath: str) -> str:
     """
     Function to download a page
     """
-    paragraphs = soup.find_all("p")
-    if paragraphs:
-        paragraphsList = [p.get_text() for p in paragraphs]
-        siteData = {"url": url, "content": paragraphsList}
+    paragraphsList = [p.get_text() for p in soup.find_all("p")]
+    pageTitle = [t.get_text() for t in soup.find_all("title")]
+    if paragraphsList:
+        siteData = {"title": pageTitle, "url": url, "content": paragraphsList}
 
         urlPath = url.replace("https://", "").replace("http://", "").replace("/", "_")
         filePath = os.path.join(savePath, urlPath + ".json")
