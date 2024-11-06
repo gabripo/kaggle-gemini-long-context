@@ -41,18 +41,18 @@ def download_page(soup: BeautifulSoup, url: str, savePath: str) -> str:
 
         urlPath = url.replace("https://", "").replace("http://", "").replace("/", "_")
         filePath = os.path.join(savePath, urlPath + ".json")
-        write_json_from_site_data(siteData, filePath)
+        write_json_from_data(siteData, filePath)
         return filePath
     else:
         return ""
 
 
-def write_json_from_site_data(siteData: dict, filePath: str) -> None:
+def write_json_from_data(data: dict, filePath: str, indentSize: int = 4) -> None:
     """
-    Function to write a json file containing data from a website
+    Function to write a json file with its data
     """
     with open(filePath, "w") as f:
-        json.dump(siteData, f, ensure_ascii=False, indent=4)
+        json.dump(data, f, ensure_ascii=False, indent=indentSize)
     return
 
 
@@ -111,8 +111,7 @@ def merge_json_files(jsonFilesFolder: str, targetFile: str = "_merged.json") -> 
                 resultFileContent.append(jsonData)
 
         resultFilePath = os.path.join(jsonFilesFolder, targetFile)
-        with open(resultFilePath, "w") as f:
-            json.dump(resultFileContent, f, indent=2)
+        write_json_from_data(resultFileContent, resultFilePath)
         return resultFilePath
     return ""
 
@@ -120,7 +119,7 @@ def merge_json_files(jsonFilesFolder: str, targetFile: str = "_merged.json") -> 
 def crawling_hard(root: str, parentFolder: str, savePath: str = "crawled") -> None:
     os.makedirs(savePath, exist_ok=True)
 
-    jsonFiles = download_all_pages(root, parentFolder, savePath, 10)
+    jsonFiles = download_all_pages(root, parentFolder, savePath, 5)
 
     clean_json_files(savePath)
 
