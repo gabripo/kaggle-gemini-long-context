@@ -87,6 +87,24 @@ def download_all_pages(
     return jsonFiles
 
 
+def most_common_sentences_in_file(
+    jsonFilePath: str, alreadyCommonWords: set, frequencyThreshold: int = 1
+) -> list[str]:
+    with open(jsonFilePath, "r") as f:
+        data = json.load(f)
+    content = data.get("content", "")
+
+    frequencies = {}
+    if content:
+        for sentence in content:
+            frequencies[sentence] = frequencies.get(sentence, 0) + 1
+
+    for sentence, freq in frequencies.items():
+        if freq > frequencyThreshold:
+            alreadyCommonWords.add(sentence)
+    return alreadyCommonWords
+
+
 def list_json_files_in_folder(
     jsonFilesFolder: str, jsonFilesToExclude: str | list[str]
 ) -> list[str]:
@@ -104,12 +122,32 @@ def list_json_files_in_folder(
 
 def clean_json_files(
     jsonFilesFolder: str, filesToExclude: str | list[str], overwrite: bool = True
-) -> str:
+) -> list[str]:
     """
     Function to remove unneded text from a json file containing web page content
     """
     fileList = list_json_files_in_folder(jsonFilesFolder, filesToExclude)
-    pass
+
+    mostCommonRows = set()  # it is possible to define custom common words here
+    for file in fileList:
+        mostCommonRows = most_common_sentences_in_file(file, mostCommonRows)
+
+    cleanedFiles = []
+    for file in fileList:
+        with open(file, "r") as f:
+            data = json.load(f)
+
+        for i, row in enumerate(data.get("content", "")):
+            if row in mostCommonRows:
+                del data["content"][i]
+
+        if overwrite:
+            jsonCleanedFilePath = file
+        else:
+            jsonCleanedFilePath = file.replace(".json", "_cleaned.json")
+        write_json_from_data(data, jsonCleanedFilePath)
+        cleanedFiles.append(jsonCleanedFilePath)
+    return cleanedFiles
 
 
 def merge_json_files(jsonFilesFolder: str, targetFile: str = "_merged.json") -> str:
@@ -164,7 +202,7 @@ def crawling_hard(
     jsonFiles = download_all_pages(root, parentFolder, savePath, numPages)
 
     mergedJsonName = "_merged.json"
-    clean_json_files(savePath, mergedJsonName)
+    jsonFilesClean = clean_json_files(savePath, mergedJsonName)
     mergedJsonPath = merge_json_files(savePath, mergedJsonName)
 
     plainText = json_to_txt(savePath, mergedJsonPath)
