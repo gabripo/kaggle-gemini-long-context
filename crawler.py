@@ -202,7 +202,7 @@ def text_from_file(filePath: str) -> str | list[str]:
     return textString, textList
 
 
-def crawling_hard(
+def get_text_from_webpages(
     root: str, parentFolder: str, savePath: str = "crawled", numPages: int = 5
 ) -> str:
     os.makedirs(savePath, exist_ok=True)
@@ -222,7 +222,7 @@ parent_folder = "/products-and-solutions/"
 initial_url = "https://www.hitachienergy.com/products-and-solutions/"
 save_folder = "crawled"
 num_pages_to_download = 5
-parsedText = crawling_hard(
+parsedText = get_text_from_webpages(
     initial_url, parent_folder, save_folder, num_pages_to_download
 )
 print(parsedText)
