@@ -87,10 +87,28 @@ def download_all_pages(
     return jsonFiles
 
 
-def clean_json_files(jsonFilesFolder: str, overwrite: bool = True) -> str:
+def list_json_files_in_folder(
+    jsonFilesFolder: str, jsonFilesToExclude: str | list[str]
+) -> list[str]:
+    if type(jsonFilesToExclude) == str:
+        jsonFilesToExclude = [jsonFilesToExclude]
+
+    filesToExclude = set(jsonFilesToExclude)
+    fileList = [
+        os.path.join(jsonFilesFolder, file)
+        for file in os.listdir(jsonFilesFolder)
+        if file.endswith(".json") and file not in filesToExclude
+    ]
+    return fileList
+
+
+def clean_json_files(
+    jsonFilesFolder: str, filesToExclude: str | list[str], overwrite: bool = True
+) -> str:
     """
     Function to remove unneded text from a json file containing web page content
     """
+    fileList = list_json_files_in_folder(jsonFilesFolder, filesToExclude)
     pass
 
 
@@ -98,11 +116,7 @@ def merge_json_files(jsonFilesFolder: str, targetFile: str = "_merged.json") -> 
     """
     Function to merge multiple json files into a single one
     """
-    fileList = [
-        os.path.join(jsonFilesFolder, file)
-        for file in os.listdir(jsonFilesFolder)
-        if file.endswith(".json") and file != targetFile
-    ]
+    fileList = list_json_files_in_folder(jsonFilesFolder, targetFile)
     if fileList:
         resultFileContent = []
         for file in fileList:
@@ -149,9 +163,8 @@ def crawling_hard(
 
     jsonFiles = download_all_pages(root, parentFolder, savePath, numPages)
 
-    clean_json_files(savePath)
-
     mergedJsonName = "_merged.json"
+    clean_json_files(savePath, mergedJsonName)
     mergedJsonPath = merge_json_files(savePath, mergedJsonName)
 
     plainText = json_to_txt(savePath, mergedJsonPath)
