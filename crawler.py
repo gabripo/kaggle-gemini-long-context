@@ -88,11 +88,18 @@ def download_all_pages(
 
 
 def most_common_sentences_in_file(
-    jsonFilePath: str, alreadyCommonWords: set, frequencyThreshold: int = 1
+    jsonFilePath: str, alreadyCommonWords: set = set(), frequencyThreshold: int = 1
 ) -> list[str]:
     with open(jsonFilePath, "r") as f:
         data = json.load(f)
-    content = data.get("content", "")
+
+    if type(data) == list:
+        contentList = [c.get("content", "") for c in data]
+        content = []
+        for contentPage in contentList:
+            content.extend(contentPage)
+    else:
+        content = data.get("content", "")
 
     frequencies = {}
     if content:
@@ -121,14 +128,30 @@ def list_json_files_in_folder(
 
 
 def clean_json_file(
-    jsonFilePath: str, mostCommonRows: set[str], overwrite: bool = True
+    jsonFilePath: str, mostCommonRows: set[str] = set(), overwrite: bool = True
 ) -> str:
     with open(jsonFilePath, "r") as f:
         data = json.load(f)
 
-    for i, row in enumerate(data.get("content", "")):
-        if row in mostCommonRows:
-            del data["content"][i]
+    if type(data) == list:
+        for i, page in enumerate(data):
+            indexesToRemove = set()
+            for j, row in enumerate(page.get("content", "")):
+                if row in mostCommonRows:
+                    indexesToRemove.add(j)
+
+            data[i]["content"][:] = [
+                c for k, c in enumerate(data[i]["content"]) if not k in indexesToRemove
+            ]
+    else:
+        indexesToRemove = set()
+        for i, row in enumerate(data.get("content", "")):
+            if row in mostCommonRows:
+                indexesToRemove.add(i)
+
+        data["content"][:] = [
+            c for k, c in enumerate(data["content"]) if k not in indexesToRemove
+        ]
 
     if overwrite:
         jsonCleanedFilePath = jsonFilePath
@@ -220,6 +243,11 @@ def get_text_from_webpages(
     mergedJsonName = "_merged.json"
     jsonFilesClean = clean_json_files(savePath, mergedJsonName)
     mergedJsonPath = merge_json_files(savePath, mergedJsonName)
+
+    mostCommonWordsMergedJson = most_common_sentences_in_file(
+        mergedJsonPath, frequencyThreshold=len(jsonFilesClean) - 1
+    )
+    mergedJsonPath = clean_json_file(mergedJsonPath, mostCommonWordsMergedJson)
 
     plainTextFile = json_to_txt(savePath, mergedJsonPath)
     plainText, textString = text_from_file(plainTextFile)
