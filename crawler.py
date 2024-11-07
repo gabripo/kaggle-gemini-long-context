@@ -194,9 +194,17 @@ def json_to_txt(savePath: str, jsonFilePath: str, targetName: str = "") -> str:
     return resultFilePath
 
 
+def text_from_file(filePath: str) -> str | list[str]:
+    with open(filePath, "r", encoding="utf-8") as f:
+        textString = f.read()
+        f.seek(0)
+        textList = f.readlines()
+    return textString, textList
+
+
 def crawling_hard(
     root: str, parentFolder: str, savePath: str = "crawled", numPages: int = 5
-) -> None:
+) -> str:
     os.makedirs(savePath, exist_ok=True)
 
     jsonFiles = download_all_pages(root, parentFolder, savePath, numPages)
@@ -205,12 +213,16 @@ def crawling_hard(
     jsonFilesClean = clean_json_files(savePath, mergedJsonName)
     mergedJsonPath = merge_json_files(savePath, mergedJsonName)
 
-    plainText = json_to_txt(savePath, mergedJsonPath)
-    return
+    plainTextFile = json_to_txt(savePath, mergedJsonPath)
+    plainText, textString = text_from_file(plainTextFile)
+    return plainText
 
 
 parent_folder = "/products-and-solutions/"
 initial_url = "https://www.hitachienergy.com/products-and-solutions/"
 save_folder = "crawled"
 num_pages_to_download = 5
-crawling_hard(initial_url, parent_folder, save_folder, num_pages_to_download)
+parsedText = crawling_hard(
+    initial_url, parent_folder, save_folder, num_pages_to_download
+)
+print(parsedText)
