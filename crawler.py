@@ -120,6 +120,25 @@ def list_json_files_in_folder(
     return fileList
 
 
+def clean_json_file(
+    jsonFilePath: str, mostCommonRows: set[str], overwrite: bool = True
+) -> str:
+    with open(jsonFilePath, "r") as f:
+        data = json.load(f)
+
+    for i, row in enumerate(data.get("content", "")):
+        if row in mostCommonRows:
+            del data["content"][i]
+
+    if overwrite:
+        jsonCleanedFilePath = jsonFilePath
+    else:
+        jsonCleanedFilePath = jsonFilePath.replace(".json", "_cleaned.json")
+
+    write_json_from_data(data, jsonCleanedFilePath)
+    return jsonCleanedFilePath
+
+
 def clean_json_files(
     jsonFilesFolder: str, filesToExclude: str | list[str], overwrite: bool = True
 ) -> list[str]:
@@ -134,18 +153,7 @@ def clean_json_files(
 
     cleanedFiles = []
     for file in fileList:
-        with open(file, "r") as f:
-            data = json.load(f)
-
-        for i, row in enumerate(data.get("content", "")):
-            if row in mostCommonRows:
-                del data["content"][i]
-
-        if overwrite:
-            jsonCleanedFilePath = file
-        else:
-            jsonCleanedFilePath = file.replace(".json", "_cleaned.json")
-        write_json_from_data(data, jsonCleanedFilePath)
+        jsonCleanedFilePath = clean_json_file(file, mostCommonRows, overwrite)
         cleanedFiles.append(jsonCleanedFilePath)
     return cleanedFiles
 
