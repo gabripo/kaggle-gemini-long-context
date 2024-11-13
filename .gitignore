@@ -1,2 +1,4 @@
 crawled/
 src/API_KEY.py
+.env
+venv/
