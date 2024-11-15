@@ -30,7 +30,7 @@ def get_links(soup: BeautifulSoup, url: str, parentFolder: str) -> list:
     return links
 
 
-def download_page(soup: BeautifulSoup, url: str, savePath: str) -> str:
+def download_page(soup: BeautifulSoup, url: str, savePath: str, rootUrl: str) -> str:
     """
     Function to download a page
     """
@@ -39,7 +39,12 @@ def download_page(soup: BeautifulSoup, url: str, savePath: str) -> str:
     if paragraphsList:
         siteData = {"title": pageTitle, "url": url, "content": paragraphsList}
 
-        urlPath = url.replace("https://", "").replace("http://", "").replace("/", "_")
+        urlPath = (
+            url.replace(rootUrl, "root")
+            .replace("https://", "")
+            .replace("http://", "")
+            .replace("/", "_")
+        )
         filePath = os.path.join(savePath, urlPath + ".json")
         write_json_from_data(siteData, filePath)
         return filePath
@@ -74,7 +79,7 @@ def download_all_pages(
         visitedUrls.add(url)
 
         soup = soup_page(url)
-        jsonFileFromSite = download_page(soup, url, savePath)
+        jsonFileFromSite = download_page(soup, url, savePath, rootUrl)
         print(f"JSON file {jsonFileFromSite} created from url {url}")
         jsonFiles.append(jsonFileFromSite)
 
