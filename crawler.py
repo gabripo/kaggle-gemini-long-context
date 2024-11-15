@@ -215,8 +215,9 @@ def json_to_txt(savePath: str, jsonFilePath: str, targetName: str = "") -> str:
     with open(resultFilePath, "w") as f:
         for numPage, webpage in enumerate(data):
             pageTitle = webpage.get("title", "")
+            pageUrl = webpage.get("url", "")
             f.write(
-                f'The page number {numPage+1} with name "{pageTitle[0]}" has the following content:\n'
+                f'The page number {numPage+1} with name "{pageTitle[0]}" and URL "{pageUrl}" has the following content:\n'
             )
 
             pageContent = webpage.get("content", "")
