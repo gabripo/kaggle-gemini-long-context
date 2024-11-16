@@ -2,3 +2,4 @@ crawled/
 src/API_KEY.py
 .env
 venv/
+companies_info/
