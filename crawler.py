@@ -125,7 +125,7 @@ def most_common_sentences_in_file(
 
 
 def list_json_files_in_folder(
-    jsonFilesFolder: str, jsonFilesToExclude: str | list[str]
+    jsonFilesFolder: str, jsonFilesToExclude: str | list[str], pageMarker="site"
 ) -> list[str]:
     if type(jsonFilesToExclude) == str:
         jsonFilesToExclude = [jsonFilesToExclude]
@@ -134,7 +134,7 @@ def list_json_files_in_folder(
     fileList = [
         os.path.join(jsonFilesFolder, file)
         for file in os.listdir(jsonFilesFolder)
-        if file.endswith(".json") and file not in filesToExclude
+        if file.endswith(".json") and file not in filesToExclude and pageMarker in file
     ]
     return fileList
 
@@ -175,12 +175,15 @@ def clean_json_file(
 
 
 def clean_json_files(
-    jsonFilesFolder: str, filesToExclude: str | list[str], overwrite: bool = True
+    jsonFilesFolder: str,
+    filesToExclude: str | list[str],
+    pageMarker="site",
+    overwrite: bool = True,
 ) -> list[str]:
     """
     Function to remove unneded text from a json file containing web page content
     """
-    fileList = list_json_files_in_folder(jsonFilesFolder, filesToExclude)
+    fileList = list_json_files_in_folder(jsonFilesFolder, filesToExclude, pageMarker)
 
     mostCommonRows = set()  # it is possible to define custom common words here
     for file in fileList:
@@ -193,11 +196,13 @@ def clean_json_files(
     return cleanedFiles
 
 
-def merge_json_files(jsonFilesFolder: str, targetFile: str = "_merged.json") -> str:
+def merge_json_files(
+    jsonFilesFolder: str, targetFile: str = "_merged.json", pageMarker="site"
+) -> str:
     """
     Function to merge multiple json files into a single one
     """
-    fileList = list_json_files_in_folder(jsonFilesFolder, targetFile)
+    fileList = list_json_files_in_folder(jsonFilesFolder, targetFile, pageMarker)
     if fileList:
         resultFileContent = []
         for file in fileList:
@@ -214,6 +219,8 @@ def merge_json_files(jsonFilesFolder: str, targetFile: str = "_merged.json") -> 
 def json_to_txt(savePath: str, jsonFilePath: str, targetName: str = "") -> str:
     if targetName == "":
         targetName = os.path.basename(jsonFilePath).replace(".json", ".txt")
+    elif not ".txt" in targetName:
+        targetName = targetName + "_merged.txt"
 
     with open(jsonFilePath, "r") as f:
         data = json.load(f)
@@ -257,9 +264,9 @@ def get_text_from_webpages(
 
     jsonFiles = download_all_pages(root, parentFolder, savePath, numPages, pageMarker)
 
-    mergedJsonName = "_merged.json"
-    jsonFilesClean = clean_json_files(savePath, mergedJsonName)
-    mergedJsonPath = merge_json_files(savePath, mergedJsonName)
+    mergedJsonName = pageMarker + "_merged.json"
+    jsonFilesClean = clean_json_files(savePath, mergedJsonName, pageMarker)
+    mergedJsonPath = merge_json_files(savePath, mergedJsonName, pageMarker)
 
     mostCommonWordsMergedJson = most_common_sentences_in_file(
         mergedJsonPath, frequencyThreshold=len(jsonFilesClean) - 1
