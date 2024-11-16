@@ -1,4 +1,4 @@
-from crawler import get_text_from_webpages
+from crawler import get_text_from_webpages, write_json_from_data
 import os
 
 companiesWebsites = {
@@ -38,3 +38,5 @@ def download_info_companies(
 
 if __name__ == "__main__":
     infoDict = download_info_companies(companiesWebsites=companiesWebsites)
+    resultFileName = "companies_info.json"
+    write_json_from_data(infoDict, resultFileName)
