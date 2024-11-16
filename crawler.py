@@ -30,7 +30,9 @@ def get_links(soup: BeautifulSoup, url: str, parentFolder: str) -> list:
     return links
 
 
-def download_page(soup: BeautifulSoup, url: str, savePath: str, rootUrl: str) -> str:
+def download_page(
+    soup: BeautifulSoup, url: str, savePath: str, rootUrl: str, pageMarker: str
+) -> str:
     """
     Function to download a page
     """
@@ -40,10 +42,11 @@ def download_page(soup: BeautifulSoup, url: str, savePath: str, rootUrl: str) ->
         siteData = {"title": pageTitle, "url": url, "content": paragraphsList}
 
         urlPath = (
-            url.replace(rootUrl, "root")
+            url.replace(rootUrl.replace(".html", ""), f"{pageMarker}/")
             .replace("https://", "")
             .replace("http://", "")
             .replace("/", "_")
+            .replace(".html", "")
         )
         filePath = os.path.join(savePath, urlPath + ".json")
         write_json_from_data(siteData, filePath)
@@ -62,7 +65,11 @@ def write_json_from_data(data: dict, filePath: str, indentSize: int = 4) -> None
 
 
 def download_all_pages(
-    rootUrl: str, parentFolder: str, savePath: str, maxPages: int = 100
+    rootUrl: str,
+    parentFolder: str,
+    savePath: str,
+    maxPages: int = 100,
+    pageMarker: str = "site",
 ) -> list[str]:
     """
     Recursive function to download pages and subpages
@@ -79,7 +86,7 @@ def download_all_pages(
         visitedUrls.add(url)
 
         soup = soup_page(url)
-        jsonFileFromSite = download_page(soup, url, savePath, rootUrl)
+        jsonFileFromSite = download_page(soup, url, savePath, rootUrl, pageMarker)
         print(f"JSON file {jsonFileFromSite} created from url {url}")
         jsonFiles.append(jsonFileFromSite)
 
@@ -240,11 +247,15 @@ def text_from_file(filePath: str) -> str | list[str]:
 
 
 def get_text_from_webpages(
-    root: str, parentFolder: str, savePath: str = "crawled", numPages: int = 5
+    root: str,
+    parentFolder: str,
+    savePath: str = "crawled",
+    numPages: int = 5,
+    pageMarker: str = "site",
 ) -> str:
     os.makedirs(savePath, exist_ok=True)
 
-    jsonFiles = download_all_pages(root, parentFolder, savePath, numPages)
+    jsonFiles = download_all_pages(root, parentFolder, savePath, numPages, pageMarker)
 
     mergedJsonName = "_merged.json"
     jsonFilesClean = clean_json_files(savePath, mergedJsonName)
@@ -260,11 +271,12 @@ def get_text_from_webpages(
     return plainText
 
 
-parent_folder = "/products-and-solutions/"
-initial_url = "https://www.hitachienergy.com/products-and-solutions/"
-save_folder = "crawled"
-num_pages_to_download = 5
-parsedText = get_text_from_webpages(
-    initial_url, parent_folder, save_folder, num_pages_to_download
-)
-print(parsedText)
+if __name__ == "__main__":
+    parent_folder = "/products-and-solutions/"
+    initial_url = "https://www.hitachienergy.com/products-and-solutions/"
+    save_folder = "crawled"
+    num_pages_to_download = 5
+    parsedText = get_text_from_webpages(
+        initial_url, parent_folder, save_folder, num_pages_to_download
+    )
+    print(parsedText)
