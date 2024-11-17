@@ -239,7 +239,7 @@ def json_to_txt(savePath: str, jsonFilePath: str, targetName: str = "") -> str:
                 f.write(f"{row} \n")
 
             f.write(
-                f'The page number {numPage+1} with name "{pageTitle[0]}" ends here.\n\n'
+                f'The page with name "{pageTitle[0]}" and URL "{pageUrl}" ends here.\n\n'
             )
 
     return resultFilePath
