@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import os
 from urllib.parse import urljoin
 from collections import deque
+import hashlib
 
 VALID_GET_RESPONSE = 200
 
@@ -41,14 +42,8 @@ def download_page(
     if paragraphsList:
         siteData = {"title": pageTitle, "url": url, "content": paragraphsList}
 
-        urlPath = (
-            url.replace(rootUrl.replace(".html", ""), f"{pageMarker}/")
-            .replace("https://", "")
-            .replace("http://", "")
-            .replace("/", "_")
-            .replace(".html", "")
-        )
-        filePath = os.path.join(savePath, urlPath + ".json")
+        filename = f"{pageMarker}_{hashlib.sha1(url.encode('UTF8')).hexdigest()}"
+        filePath = os.path.join(savePath, filename + ".json")
         write_json_from_data(siteData, filePath)
         return filePath
     else:
