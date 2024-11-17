@@ -30,6 +30,7 @@ def download_info_companies(
             savePath=saveFolder,
             numPages=numPagesToDownload,
             pageMarker=companyName,
+            pagenamesToExclude=["contact-us"],
         )
 
         companiesInfoText[companyName] = companyInfoText

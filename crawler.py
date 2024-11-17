@@ -65,6 +65,7 @@ def download_all_pages(
     savePath: str,
     maxPages: int = 100,
     pageMarker: str = "site",
+    pagenamesToExclude: list[str] = [],
 ) -> list[str]:
     """
     Recursive function to download pages and subpages
@@ -85,8 +86,12 @@ def download_all_pages(
         print(f"JSON file {jsonFileFromSite} created from url {url}")
         jsonFiles.append(jsonFileFromSite)
 
+        pagesNotAllowed = set(pagenamesToExclude)
         links = get_links(soup, url, parentFolder)
         for link in links:
+            if set(link.split("/")).intersection(pagesNotAllowed):
+                continue
+
             fullLink = urljoin(url, link)
             if fullLink not in visitedUrls and "http" in fullLink:
                 stack.append(fullLink)
@@ -254,10 +259,13 @@ def get_text_from_webpages(
     savePath: str = "crawled",
     numPages: int = 5,
     pageMarker: str = "site",
+    pagenamesToExclude: list[str] = [],
 ) -> str:
     os.makedirs(savePath, exist_ok=True)
 
-    jsonFiles = download_all_pages(root, parentFolder, savePath, numPages, pageMarker)
+    jsonFiles = download_all_pages(
+        root, parentFolder, savePath, numPages, pageMarker, pagenamesToExclude
+    )
 
     mergedJsonName = pageMarker + "_merged.json"
     jsonFilesClean = clean_json_files(savePath, mergedJsonName, pageMarker)
