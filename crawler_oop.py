@@ -29,6 +29,7 @@ class WebCrawler:
         self.visited_urls = set()
         self.json_files = []
         self.fresh_download = fresh_download
+        self.downloaded_text = ""
 
     def soup_page(self, url: str) -> BeautifulSoup:
         response = requests.get(url)
@@ -260,7 +261,7 @@ class WebCrawler:
             text_list = f.readlines()
         return text_string, text_list
 
-    def get_text_from_webpages(self) -> str:
+    def get_text_from_webpages(self) -> None:
         os.makedirs(self.save_path, exist_ok=True)
 
         self.download_all_pages()
@@ -277,8 +278,7 @@ class WebCrawler:
         )
 
         plain_text_file = self.json_to_txt(merged_json_path)
-        plain_text, text_string = self.text_from_file(plain_text_file)
-        return plain_text
+        self.text_from_file, text_string = self.text_from_file(plain_text_file)
 
 
 if __name__ == "__main__":

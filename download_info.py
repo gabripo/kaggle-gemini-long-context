@@ -45,7 +45,8 @@ def download_info_companies(
                 page_marker=companyName,
                 pagenames_to_exclude=["contact-us"],
             )
-            companyInfoText = crawler.get_text_from_webpages()
+            crawler.get_text_from_webpages()
+            companyInfoText = crawler.text_from_file
         else:
             print(
                 f"Unrecognized crawling method {method} ! Returning empty string for {companyName}"
