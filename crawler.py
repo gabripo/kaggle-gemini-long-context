@@ -294,7 +294,7 @@ def get_text_from_webpages(
     mergedJsonPath = merge_json_files(savePath, mergedJsonName, pageMarker)
 
     mostCommonWordsMergedJson = most_common_sentences_in_file(
-        mergedJsonPath, frequencyThreshold=len(jsonFilesClean) - 1
+        mergedJsonPath, frequencyThreshold=(len(jsonFilesClean) - 1) // 2 + 1
     )
     mergedJsonPath = clean_json_file(mergedJsonPath, mostCommonWordsMergedJson)
 

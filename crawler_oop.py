@@ -263,7 +263,7 @@ class WebCrawler:
         merged_json_path = self.merge_json_files(self.save_path, merged_json_name)
 
         most_common_words_merged_json = self.most_common_sentences_in_file(
-            merged_json_path, frequency_threshold=len(json_files_clean) - 1
+            merged_json_path, frequency_threshold=(len(json_files_clean) - 1) // 2 + 1
         )
         merged_json_path = self.clean_json_file(
             merged_json_path, most_common_words_merged_json
