@@ -1,0 +1,27 @@
+{
+    "title": [
+        "SIEAERO"
+    ],
+    "url": "https://www.siemens-energy.com/global/en/home/products-services/service/sieaero.html",
+    "content": [
+        "The SIEAERO digital inspection service combines several sensor modalities in one fully integrated solution that revolutionizes the execution of overhead line inspection. The various inspection routines are bundled into a single flight campaign in which all necessary data is acquired.",
+        "SIEAERO supports different aspects of managing an overhead line covering inspection services, asset management as well providing accurate As-Build data to support planning & construction activities.  ",
+        "The combination of different services that includes data acquisition, surveying, asset inventory & asset inspection, clearance analysis for the right of way, as well as an interactive digital representation of the overhead line as digital twin are part of the solution. SIEAERO is all about data value making virtual powerline inspections as reliable and accessible as possible.",
+        "The SIEAERO Digital Inspection Service is a revolutionary solution that efficiently inspects overhead power lines by combining several sensor modalities. With SIEAERO, all inspection routines are integrated into a single flight campaign, where all the necessary data is gathered.",
+        "The system uses a range of cameras and sensors, including a high-end LIDAR sensor (3D laser scanning) with a high-grade IMU, various color cameras for visual inspection, thermal infrared for hot spot detection, and a UV sensor for corona discharge.",
+        "Complementing the high-end data acquisition system, SIEAERO also offers extensive data processing and analysis services applying state-of-the-art technologies in artificial intelligence and machine learning to evaluate the data at scale.",
+        "SIEAERO Smart Analytics software developed by Siemens Energy recognizes various overhead line components and assets such as pylons and conductor cables.",
+        "The software automatically creates an inventory list of the components and generates a three-dimensional representation of the entire overhead line, including the surrounding line corridor and vegetation.",
+        "The SIEAERO Analytics & AI Engine is powered by algorithms that can identify damaged components like broken insulators or defective vibration dampers. Additionally, it can assess conditions metrically, such as determining the clearances between conductors and surrounding vegetation.",
+        "SIEAERO focuses on providing accessible and contextual results.",
+        "Along with conventional and exportable reports and data formats, the inspection results are also available digitally through a browser-based interactive web interface. This interface shows geo-referenced findings and images, which users can review. This means that customers will have access to a digital twin of their overhead line.",
+        "GIS, terrain elevation, 2D & 3D mapsLidar classificationHD photos (towers, spans, and surroundings overview)",
+        "Tailored equipment catalogAI-powered and supervised by energy experts",
+        "Defects & condition-based assessment\n \nVisual & Thermal & Vegetation\nAI-powered and supervised by energy experts",
+        "Defects & condition-based assessment",
+        "AI-powered and supervised by energy experts",
+        "Assets environment, vegetation, and surroundings management ",
+        "\n\t\t\t\t\tStay in Touch\n\t\t\t\t",
+        "Siemens Energy is a trademark licensed by Siemens AG. © Siemens Energy, 2024"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "title": [
+        "Hydrogen Decarbonization Calculator",
+        "H2WebApp"
+    ],
+    "url": "https://www.siemens-energy.com/global/en/home/products-services/solutions-usecase/hydrogen/hydrogen-decarb-calculator.html",
+    "content": [
+        "Let Siemens Energy help you reach your decarbonization targets. Calculate your carbon dioxide (CO₂) reduction and cost-savings potential by running your aeroderivative, industrial, and heavy-duty gas turbines fully or partially on hydrogen.",
+        "Error in euro conversion: Couldn't connect to the  conversion service.  Reverting to dollar. Please try again later.",
+        " CO2",
+        "Your results will be available here once you've selected your production environment.",
+        "The CO2 emission data is based on methane. Gas turbines with MWs rating are Mechanical Drive only and the CO2 emission intensity is stated per kWh shaft. CO2 emission intensity for all other gas turbines is stated per kWh electricity net with exception for Combined Heat and Power, which is stated per kWh electricity and heat.",
+        "The CO2 taxes are based on the web page of International Carbon Action Parntership (data in USD from 30th of June 2022). Carbon pricing projections for advanced economies (IEA SDS 2030, IEA SDS 2040) are based on IEA's Sustainable Development Scenarios. Exchange rates comes from exchangerate.host.",
+        "The numbers presented are only for general information purposes and do not intend to provide legal, tax or accounting advice. For an exact calculation the boundary conditions for the specific site has to be considered.  Expected capabilities or benefits may not apply or be realized in all cases.  Information used to calculate results is subject to change without notice. Nothing on this site, including the results, shall be deemed or construed to be a warranty or guarantee of the information, product(s) or component(s) described herein.",
+        "\n\t\t\t\t\tStay in Touch\n\t\t\t\t",
+        "Siemens Energy is a trademark licensed by Siemens AG. © Siemens Energy, 2024"
+    ]
+}

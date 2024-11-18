@@ -1,0 +1,31 @@
+{
+    "title": [
+        "GT Auto Tuner"
+    ],
+    "url": "https://www.siemens-energy.com/global/en/home/products-services/service/gt-autotuner.html",
+    "content": [
+        "First system worldwide to leverage physics and reinforcement learning to optimize gas turbine operation",
+        "Contact us ",
+        "In the competitive power-generation market, power utilities are focused on optimizing performance while minimizing operational costs to deliver low-cost, high-quality energy to their customers. ",
+        "However, there needs to be a balance in the trade-offs between performance, operational costs and risks.",
+        "When it comes to fossil generation, performance optimization is directly related to operations cost. Using a Thermal Digital Twin based on data from the DCS for advanced control concepts without major changes to mechanical equipment is one of the options to increase your plants profitability.",
+        "With Omnivise Performance you can adapt plant operations to your current requirements.",
+        "GT Auto Tuner is an AI-based solution for gas turbines that uses a digital twin to optimize the turbine inlet temperature and emissions with the help of reinforcement learning.",
+        "The turbine inlet temperature is estimated accurately by performing online energy balance in real time. Goal of the improved turbine inlet temperature control is to compensate the power degradation (performance recovery) in combination with a continuous real time optimization of emissions and combustor dynamics. ",
+        "A new package of enhanced energy services from Siemens Energy will supply Dubai Electricity and Water Authority’s (DEWA) Jebel Ali L2 power and water station with the latest advancements in power plant service, maintenance, and controls. Under terms of the new long-term service agreement, Siemens Energy will supply an intelligent controller for each of the four SGT5-4000F gas turbines, the latest Omnivise T3000 control system, services for generators, as well as added upgrades for outage reduction and operational flexibility.",
+        "GT Auto Tuner improves combustion control and further minimizes seasonal tuning by supplementing the Omnivise T3000 controls with a trained reinforcement learning control policy together with a direct engine temperature control method.",
+        "Changes in ambient conditions and exhaust back pressure can result in different combustion visible in modified dynamics and emission levels.",
+        "Patented reinforcement learning (RL) methods extract existent dependencies into a neural network based RL control policy that is continuously adjusting the combustion process. ",
+        "Field experience demonstrated the potential to lower NOx emissions and minimize the need for seasonal tuning based on the combination of AI and improved turbine inlet temperature estimation. ",
+        "Volkmar Sterzing and Steffen Udluft of Siemens Energy Corporate Technology developed a process that uses just a few recorded data to teach machines to regulate complex processes on their own. The continuous fine-tuning of the combustion valves has optimized gas turbine operations in terms of emissions and wear by constantly searching for the best solution in real time.",
+        "Before it went into practical use, Volkmar Sterzing and the team at the Berlin gas turbine plant thoroughly tested the GT Auto Tuner.",
+        "The scope includes the control logic that is required for autonomous optimization. Depending on individual project requirements, it can also include controls hardware as well as additional instrumentation. ",
+        "The Stability/Emissions Functionality autonomously introduces refinements to the fuel distribution and outlet temperature control in order to drive emissions and combustion dynamics towards optimal values in both steady state and transient operation.",
+        "It allows real time combustion tuning by fuel staging optimization and continuously optimized fuel fraction control for the given load. ",
+        "This autonomous combustion control helps to significantly reduce NOₓ emissions. ",
+        "The Performance Functionality allows real time gas turbine performance modelling to improve engine performance by compensating detrimental effects to temperature control set point (OTC).",
+        "This partial degradation recovery functionality integrates physics-based Real Time Thermal Modeling (RTTM), a software library calculating turbine inlet temperature (TIT) in real time on site. Adjustments are made autonomously at baseload to maintain the RTTM-calculated TIT to the predefined TIT set point.  ",
+        "\n\t\t\t\t\tStay in Touch\n\t\t\t\t",
+        "Siemens Energy is a trademark licensed by Siemens AG. © Siemens Energy, 2024"
+    ]
+}

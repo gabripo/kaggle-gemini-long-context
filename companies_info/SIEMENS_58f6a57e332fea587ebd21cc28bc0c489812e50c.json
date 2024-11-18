@@ -1,0 +1,18 @@
+{
+    "title": [
+        "Circuit breaker accessories"
+    ],
+    "url": "https://www.siemens-energy.com/global/en/home/products-services/product/accessories.html",
+    "content": [
+        "We offer tools, sensors and additional devices that can assist you with the installation, maintenance and operation of your switchgear. Our devices allow you to monitor the contact wear, condition and function of your switchgear while protecting against switching overvoltages.",
+        "Using accessories for Siemens Energy high-voltage circuit breakers can help reduce the life cycle costs of your substation and increase the service life of your equipment. All of these products have been developed and tested for Siemens Energy breakers.",
+        "The PSD control unit reduces overvoltages and protects electrical equipment.",
+        "Energizing and re-energizing during an autoreclosing operation of shunt compensated transmission lines cause switching overvoltages on the transmission lines. The design is based on more than 10 years of experiences with controlled switching. This includes applications such as capacitor bank and reactor switching, energizing of transformers and uncompensated transmission lines up to 1100 kV.",
+        "The SiCEA01 contact erosion analyzer is used to determine the extent of wear to the circuit breaker contacts. The breaking currents of the circuit breaker are used to determine the contact wear. ",
+        "Switching operations with currents below the rated normal current are evaluated with the rated normal current.",
+        "The contact burn off is calculated using the integral of the circuit breaker breaking currents. The result is compared with the configured reference values. If the result of this comparison exceeds the warning or alarm value, the corresponding signal contact is activated, and the signal light on the contact wear analysis device shows the status. With this warning or alarm, SiCEA01 shows whether the circuit breaker contact system has already been worn down to a specific level, which allows servicing work to be scheduled in good time.",
+        "You can find details on our circuit breaker accessories and information about our services here.",
+        "\n\t\t\t\t\tStay in Touch\n\t\t\t\t",
+        "Siemens Energy is a trademark licensed by Siemens AG. © Siemens Energy, 2024"
+    ]
+}
