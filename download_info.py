@@ -1,5 +1,6 @@
 import json
 from crawler import get_text_from_webpages, write_json_from_data
+from crawler_oop import WebCrawler
 import os
 
 companiesWebsites = {
@@ -13,9 +14,11 @@ companiesWebsites = {
     ],
 }
 
+method = "OOP"  # OOP | functional
+
 
 def download_info_companies(
-    companiesWebsites: str, numPagesToDownload: int = 10
+    companiesWebsites: str, numPagesToDownload: int = 10, method="OOP"
 ) -> dict[str, str]:
     saveFolder = os.path.join(os.path.dirname(__file__), "companies_info")
     companiesInfoText = {}
@@ -24,14 +27,30 @@ def download_info_companies(
         companyWebsite = companyWebInfo[0]
         companyParentFolder = companyWebInfo[1]
 
-        companyInfoText = get_text_from_webpages(
-            root=companyWebsite,
-            parentFolder=companyParentFolder,
-            savePath=saveFolder,
-            numPages=numPagesToDownload,
-            pageMarker=companyName,
-            pagenamesToExclude=["contact-us"],
-        )
+        if method == "functional":
+            companyInfoText = get_text_from_webpages(
+                root=companyWebsite,
+                parentFolder=companyParentFolder,
+                savePath=saveFolder,
+                numPages=numPagesToDownload,
+                pageMarker=companyName,
+                pagenamesToExclude=["contact-us"],
+            )
+        elif method == "OOP":
+            crawler = WebCrawler(
+                root=companyWebsite,
+                parent_folder=companyParentFolder,
+                save_path=saveFolder,
+                max_pages=numPagesToDownload,
+                page_marker=companyName,
+                pagenames_to_exclude=["contact-us"],
+            )
+            companyInfoText = crawler.get_text_from_webpages()
+        else:
+            print(
+                f"Unrecognized crawling method {method} ! Returning empty string for {companyName}"
+            )
+            companiesInfoText = ""
 
         companiesInfoText[companyName] = companyInfoText
 
@@ -49,7 +68,7 @@ def read_companies_info(jsonFilePath: str) -> dict:
 
 if __name__ == "__main__":
     infoDict = download_info_companies(
-        companiesWebsites=companiesWebsites, numPagesToDownload=300
+        companiesWebsites=companiesWebsites, numPagesToDownload=300, method="functional"
     )
 
     resultFileName = "companies_info.json"

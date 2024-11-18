@@ -12,7 +12,7 @@ class WebCrawler:
 
     def __init__(
         self,
-        root_url,
+        root,
         parent_folder,
         save_path="crawled",
         max_pages=100,
@@ -20,7 +20,7 @@ class WebCrawler:
         pagenames_to_exclude=None,
         fresh_download: bool = False,
     ):
-        self.root_url = root_url
+        self.root = root
         self.parent_folder = parent_folder
         self.save_path = save_path
         self.max_pages = max_pages
@@ -62,7 +62,7 @@ class WebCrawler:
             json.dump(data, f, ensure_ascii=False, indent=indent_size)
 
     def download_all_pages(self) -> None:
-        stack = deque([self.root_url])
+        stack = deque([self.root])
 
         while stack and len(self.json_files) < self.max_pages:
             url = stack.pop()
@@ -289,7 +289,7 @@ if __name__ == "__main__":
     dummy_page_name = "TEST"
     pages_to_exclude = ["contact-us"]
     crawler = WebCrawler(
-        root_url=initial_url,
+        root=initial_url,
         parent_folder=parent_folder,
         save_path=save_folder,
         max_pages=num_pages_to_download,
