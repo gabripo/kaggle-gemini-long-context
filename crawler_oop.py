@@ -18,6 +18,7 @@ class WebCrawler:
         max_pages=100,
         page_marker="site",
         pagenames_to_exclude=None,
+        fresh_download: bool = False,
     ):
         self.root_url = root_url
         self.parent_folder = parent_folder
@@ -27,6 +28,7 @@ class WebCrawler:
         self.pagenames_to_exclude = pagenames_to_exclude if pagenames_to_exclude else []
         self.visited_urls = set()
         self.json_files = []
+        self.fresh_download = fresh_download
 
     def soup_page(self, url: str) -> BeautifulSoup:
         response = requests.get(url)
@@ -42,16 +44,21 @@ class WebCrawler:
             if self.parent_folder in a["href"]
         ]
 
+    def generate_filename_from_url(self, url: str) -> str:
+        return f"{self.page_marker}_{hashlib.sha1(url.encode('UTF8')).hexdigest()}"
+
     def download_page(self, soup: BeautifulSoup, url: str) -> str:
         paragraphs_list = [p.get_text() for p in soup.find_all("p")]
         page_title = [t.get_text() for t in soup.find_all("title")]
         if paragraphs_list:
             site_data = {"title": page_title, "url": url, "content": paragraphs_list}
-            filename = (
-                f"{self.page_marker}_{hashlib.sha1(url.encode('UTF8')).hexdigest()}"
-            )
+            filename = self.generate_filename_from_url(url)
             file_path = os.path.join(self.save_path, filename + ".json")
-            self.write_json_from_data(site_data, file_path)
+            if not os.path.exists(file_path) or self.fresh_download:
+                self.write_json_from_data(site_data, file_path)
+                print(f"JSON file {file_path} created from url {url}")
+            else:
+                print(f"File {file_path} related to url {url} already available!\n")
             return file_path
         else:
             return ""
@@ -73,7 +80,6 @@ class WebCrawler:
 
             soup = self.soup_page(url)
             json_file = self.download_page(soup, url)
-            print(f"JSON file {json_file} created from url {url}")
             self.json_files.append(json_file)
 
             pages_not_allowed = set(self.pagenames_to_exclude)

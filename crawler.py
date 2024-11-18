@@ -31,8 +31,17 @@ def get_links(soup: BeautifulSoup, url: str, parentFolder: str) -> list:
     return links
 
 
+def generate_filename_from_url(url: str, pageMarker: str) -> str:
+    return f"{pageMarker}_{hashlib.sha1(url.encode('UTF8')).hexdigest()}"
+
+
 def download_page(
-    soup: BeautifulSoup, url: str, savePath: str, rootUrl: str, pageMarker: str
+    soup: BeautifulSoup,
+    url: str,
+    savePath: str,
+    rootUrl: str,
+    pageMarker: str,
+    freshDownload: bool = False,
 ) -> str:
     """
     Function to download a page
@@ -42,9 +51,13 @@ def download_page(
     if paragraphsList:
         siteData = {"title": pageTitle, "url": url, "content": paragraphsList}
 
-        filename = f"{pageMarker}_{hashlib.sha1(url.encode('UTF8')).hexdigest()}"
+        filename = generate_filename_from_url(url, pageMarker)
         filePath = os.path.join(savePath, filename + ".json")
-        write_json_from_data(siteData, filePath)
+        if not os.path.exists(filePath) or freshDownload:
+            write_json_from_data(siteData, filePath)
+            print(f"JSON file {filePath} created from url {url}")
+        else:
+            print(f"File {filePath} related to url {url} already available!\n")
         return filePath
     else:
         return ""
@@ -66,6 +79,7 @@ def download_all_pages(
     maxPages: int = 100,
     pageMarker: str = "site",
     pagenamesToExclude: list[str] = [],
+    freshDownload: bool = False,
 ) -> list[str]:
     """
     Recursive function to download pages and subpages
@@ -82,8 +96,9 @@ def download_all_pages(
         visitedUrls.add(url)
 
         soup = soup_page(url)
-        jsonFileFromSite = download_page(soup, url, savePath, rootUrl, pageMarker)
-        print(f"JSON file {jsonFileFromSite} created from url {url}")
+        jsonFileFromSite = download_page(
+            soup, url, savePath, rootUrl, pageMarker, freshDownload
+        )
         jsonFiles.append(jsonFileFromSite)
 
         pagesNotAllowed = set(pagenamesToExclude)
@@ -260,11 +275,18 @@ def get_text_from_webpages(
     numPages: int = 5,
     pageMarker: str = "site",
     pagenamesToExclude: list[str] = [],
+    freshDownload: bool = False,
 ) -> str:
     os.makedirs(savePath, exist_ok=True)
 
     jsonFiles = download_all_pages(
-        root, parentFolder, savePath, numPages, pageMarker, pagenamesToExclude
+        root,
+        parentFolder,
+        savePath,
+        numPages,
+        pageMarker,
+        pagenamesToExclude,
+        freshDownload,
     )
 
     mergedJsonName = pageMarker + "_merged.json"
