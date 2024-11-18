@@ -48,7 +48,9 @@ def read_companies_info(jsonFilePath: str) -> dict:
 
 
 if __name__ == "__main__":
-    infoDict = download_info_companies(companiesWebsites=companiesWebsites)
+    infoDict = download_info_companies(
+        companiesWebsites=companiesWebsites, numPagesToDownload=300
+    )
 
     resultFileName = "companies_info.json"
     write_json_from_data(infoDict, resultFileName)
