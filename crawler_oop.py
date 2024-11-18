@@ -47,21 +47,14 @@ class WebCrawler:
     def generate_filename_from_url(self, url: str) -> str:
         return f"{self.page_marker}_{hashlib.sha1(url.encode('UTF8')).hexdigest()}"
 
-    def download_page(self, soup: BeautifulSoup, url: str) -> str:
+    def download_page(self, soup: BeautifulSoup, url: str, file_path: str) -> None:
         paragraphs_list = [p.get_text() for p in soup.find_all("p")]
         page_title = [t.get_text() for t in soup.find_all("title")]
         if paragraphs_list:
             site_data = {"title": page_title, "url": url, "content": paragraphs_list}
-            filename = self.generate_filename_from_url(url)
-            file_path = os.path.join(self.save_path, filename + ".json")
-            if not os.path.exists(file_path) or self.fresh_download:
-                self.write_json_from_data(site_data, file_path)
-                print(f"JSON file {file_path} created from url {url}")
-            else:
-                print(f"File {file_path} related to url {url} already available!\n")
-            return file_path
-        else:
-            return ""
+
+            self.write_json_from_data(site_data, file_path)
+            print(f"JSON file {file_path} created from url {url}")
 
     @staticmethod
     def write_json_from_data(data: dict, file_path: str, indent_size: int = 4) -> None:
@@ -78,12 +71,25 @@ class WebCrawler:
                 continue
             self.visited_urls.add(url)
 
-            soup = self.soup_page(url)
-            json_file = self.download_page(soup, url)
-            self.json_files.append(json_file)
+            filename = self.generate_filename_from_url(url)
+            self.json_files.append(filename)
+
+            file_path = os.path.join(self.save_path, filename + ".json")
+            file_links_path = os.path.join(self.save_path, filename + "_links.json")
+            if self.fresh_download or (
+                not os.path.exists(file_path) and not os.path.exists(file_links_path)
+            ):
+                soup = self.soup_page(url)
+                self.download_page(soup, url, file_path)
+
+                links = self.get_links(soup, url)
+                self.write_json_from_data(links, file_links_path)
+            else:
+                print(f"File {file_path} related to url {url} already available!\n")
+                with open(file_links_path, "r") as f:
+                    links = json.load(f)
 
             pages_not_allowed = set(self.pagenames_to_exclude)
-            links = self.get_links(soup)
             for link in links:
                 if set(link.split("/")).intersection(pages_not_allowed):
                     continue
@@ -135,6 +141,7 @@ class WebCrawler:
             if file.endswith(".json")
             and file not in files_to_exclude
             and self.page_marker in file
+            and not "_links.json" in file
         ]
         return file_list
 

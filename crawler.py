@@ -35,14 +35,7 @@ def generate_filename_from_url(url: str, pageMarker: str) -> str:
     return f"{pageMarker}_{hashlib.sha1(url.encode('UTF8')).hexdigest()}"
 
 
-def download_page(
-    soup: BeautifulSoup,
-    url: str,
-    savePath: str,
-    rootUrl: str,
-    pageMarker: str,
-    freshDownload: bool = False,
-) -> str:
+def download_page(soup: BeautifulSoup, url: str, filePath: str) -> None:
     """
     Function to download a page
     """
@@ -51,16 +44,8 @@ def download_page(
     if paragraphsList:
         siteData = {"title": pageTitle, "url": url, "content": paragraphsList}
 
-        filename = generate_filename_from_url(url, pageMarker)
-        filePath = os.path.join(savePath, filename + ".json")
-        if not os.path.exists(filePath) or freshDownload:
-            write_json_from_data(siteData, filePath)
-            print(f"JSON file {filePath} created from url {url}")
-        else:
-            print(f"File {filePath} related to url {url} already available!\n")
-        return filePath
-    else:
-        return ""
+        write_json_from_data(siteData, filePath)
+        print(f"JSON file {filePath} created from url {url}")
 
 
 def write_json_from_data(data: dict, filePath: str, indentSize: int = 4) -> None:
@@ -95,14 +80,25 @@ def download_all_pages(
             continue
         visitedUrls.add(url)
 
-        soup = soup_page(url)
-        jsonFileFromSite = download_page(
-            soup, url, savePath, rootUrl, pageMarker, freshDownload
-        )
-        jsonFiles.append(jsonFileFromSite)
+        filename = generate_filename_from_url(url, pageMarker)
+        jsonFiles.append(filename)
+
+        filePath = os.path.join(savePath, filename + ".json")
+        fileLinksPath = os.path.join(savePath, filename + "_links.json")
+        if freshDownload or (
+            not os.path.exists(filePath) and not os.path.exists(fileLinksPath)
+        ):
+            soup = soup_page(url)
+            download_page(soup, url, filePath)
+
+            links = get_links(soup, url, parentFolder)
+            write_json_from_data(links, fileLinksPath)
+        else:
+            print(f"File {filePath} related to url {url} already available!\n")
+            with open(fileLinksPath, "r") as f:
+                links = json.load(f)
 
         pagesNotAllowed = set(pagenamesToExclude)
-        links = get_links(soup, url, parentFolder)
         for link in links:
             if set(link.split("/")).intersection(pagesNotAllowed):
                 continue
@@ -149,7 +145,10 @@ def list_json_files_in_folder(
     fileList = [
         os.path.join(jsonFilesFolder, file)
         for file in os.listdir(jsonFilesFolder)
-        if file.endswith(".json") and file not in filesToExclude and pageMarker in file
+        if file.endswith(".json")
+        and file not in filesToExclude
+        and pageMarker in file
+        and not "_links.json" in file
     ]
     return fileList
 
