@@ -3,3 +3,4 @@ src/API_KEY.py
 .env
 venv/
 *.pyc
+__pycache__
