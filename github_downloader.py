@@ -18,7 +18,7 @@ def files_info_from_github_repo_folder(
     return response.json()
 
 
-def download_file_from_github(fileUrl, savePath):
+def download_file_from_url(fileUrl, savePath):
     response = requests.get(fileUrl)
     response.raise_for_status()
 
@@ -26,27 +26,31 @@ def download_file_from_github(fileUrl, savePath):
         file.write(response.content)
 
 
-def download_folder_from_github_repo(
+def download_files_from_github_repo(
     userName: str = "gabripo",
     repo: str = "kaggle-gemini-long-context",
     folderName: str = "",
     saveFolder: str = "downloaded",
+    extension: str = "pdf",
 ):
     os.makedirs(saveFolder, exist_ok=True)
 
     filesInfo = files_info_from_github_repo_folder(userName, repo, folderName)
     for fileInfo in filesInfo:
         if fileInfo["type"] == "file":
-            fileUrl = fileInfo["download_url"]
             fileName = fileInfo["name"]
-            savePath = os.path.join(saveFolder, fileName)
-
-            print(f"Downloading {fileName}...")
-            download_file_from_github(fileUrl, savePath)
-            print(f"{savePath} downloaded successfully.")
+            if fileName.endswith(f".{extension}"):
+                print(f"Downloading {fileName}...")
+                fileUrl = fileInfo["download_url"]
+                savePath = os.path.join(saveFolder, fileName)
+                download_file_from_url(fileUrl, savePath)
+                print(f"{savePath} downloaded successfully.")
 
     print("All files downloaded.")
 
 
 if __name__ == "__main__":
-    download_folder_from_github_repo(folderName="tenders", saveFolder="download")
+    download_files_from_github_repo(folderName="tenders", saveFolder="download")
+    download_files_from_github_repo(
+        folderName="", saveFolder="download", extension="json"
+    )
