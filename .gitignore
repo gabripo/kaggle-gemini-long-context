@@ -4,3 +4,4 @@ src/API_KEY.py
 venv/
 *.pyc
 __pycache__
+download/
