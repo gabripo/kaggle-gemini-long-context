@@ -218,7 +218,7 @@ class WebCrawler:
         if file_list:
             result_file_content = []
             for file in file_list:
-                if file in jsonFilesAllowed:
+                if os.path.basename(file).rsplit(".", 1)[0] in jsonFilesAllowed:
                     with open(file, "r") as f:
                         json_data = json.load(f)
                         result_file_content.append(json_data)

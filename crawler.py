@@ -224,7 +224,7 @@ def merge_json_files(
     if fileList:
         resultFileContent = []
         for file in fileList:
-            if file in jsonFilesAllowed:
+            if os.path.basename(file).rsplit(".", 1)[0] in jsonFilesAllowed:
                 with open(file, "r") as f:
                     jsonData = json.load(f)
                     resultFileContent.append(jsonData)
