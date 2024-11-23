@@ -69,7 +69,7 @@ def read_companies_info(jsonFilePath: str) -> dict:
 
 if __name__ == "__main__":
     infoDict = download_info_companies(
-        companiesWebsites=companiesWebsites, numPagesToDownload=300, method="functional"
+        companiesWebsites=companiesWebsites, numPagesToDownload=500, method="functional"
     )
 
     resultFileName = "companies_info.json"
