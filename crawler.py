@@ -214,22 +214,20 @@ def merge_json_files(
     jsonFilesFolder: str,
     targetFile: str = "_merged.json",
     pageMarker="site",
-    numPages: int = 5,
+    jsonFiles: list[str] = [],
 ) -> str:
     """
     Function to merge multiple json files into a single one
     """
     fileList = list_json_files_in_folder(jsonFilesFolder, targetFile, pageMarker)
+    jsonFilesAllowed = set(jsonFiles)
     if fileList:
         resultFileContent = []
-        numFileProcessed = 0
         for file in fileList:
-            if numFileProcessed <= numPages:
+            if file in jsonFilesAllowed:
                 with open(file, "r") as f:
                     jsonData = json.load(f)
                     resultFileContent.append(jsonData)
-
-            numFileProcessed += 1
 
         resultFilePath = os.path.join(jsonFilesFolder, targetFile)
         write_json_from_data(resultFileContent, resultFilePath)
@@ -297,7 +295,7 @@ def get_text_from_webpages(
 
     mergedJsonName = pageMarker + "_merged.json"
     jsonFilesClean = clean_json_files(savePath, mergedJsonName, pageMarker)
-    mergedJsonPath = merge_json_files(savePath, mergedJsonName, pageMarker, numPages)
+    mergedJsonPath = merge_json_files(savePath, mergedJsonName, pageMarker, jsonFiles)
 
     mostCommonWordsMergedJson = most_common_sentences_in_file(
         mergedJsonPath, frequencyThreshold=(len(jsonFilesClean) - 1) // 2 + 1

@@ -214,12 +214,14 @@ class WebCrawler:
         self, json_files_folder: str, target_file: str = "_merged.json"
     ) -> str:
         file_list = self.list_json_files_in_folder(json_files_folder, [target_file])
+        jsonFilesAllowed = set(self.json_files)
         if file_list:
             result_file_content = []
             for file in file_list:
-                with open(file, "r") as f:
-                    json_data = json.load(f)
-                    result_file_content.append(json_data)
+                if file in jsonFilesAllowed:
+                    with open(file, "r") as f:
+                        json_data = json.load(f)
+                        result_file_content.append(json_data)
 
             result_file_path = os.path.join(json_files_folder, target_file)
             self.write_json_from_data(result_file_content, result_file_path)
