@@ -1,7 +1,7 @@
 import json
-from crawler import get_text_from_webpages, write_json_from_data
-from crawler_oop import WebCrawler
 import os
+from src.crawler import get_text_from_webpages, write_json_from_data
+from src.crawler_oop import WebCrawler
 
 companiesWebsites = {
     "SIEMENS": [
