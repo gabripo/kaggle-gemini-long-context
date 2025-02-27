@@ -3,13 +3,9 @@ from src.crawler import write_json_from_data
 
 
 companiesWebsites = {
-    "SIEMENS": [
-        "https://www.siemens-energy.com/us/en/home/products-services.html",
-        "/products-services/",
-    ],
-    "HITACHI": [
-        "https://www.hitachienergy.com/products-and-solutions/",
-        "/products-and-solutions/",
+    "DUAGON": [
+        "https://www.duagon.com/products/",
+        "/products/",
     ],
 }
 
