@@ -1,0 +1,18 @@
+{
+    "title": [
+        "F11S - Intel Atom CPU Board - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/f11s/",
+    "content": [
+        "The F11S single-board computer is a versatile 3U Eurocard CompactPCI board, taking 8 HP or more front space depending on its configuration. It is equipped with the Intel Atom XL processor, an IA-32 core based on 45nm process technology. Some processor versions are qualified for the extended temperature range. Due to the low power architecture of the Intel Atom processor, the CPU card has a total power consumption of max. 5 to 7 Watts, while having a clock frequency of up to 1.6 GHz. A specially outlined heat sink efficiently takes away the heat from the board, even in extended temperature range.",
+        " The F11S is designed especially for systems which require low power consumption, e.g. as a computing platform for rugged industrial PCs in mobile applications or for infotainment applications, offering the whole world of Windows and Linux based software.",
+        " The F11S accommodates up to 2 GB of directly soldered main memory, 2 MB SRAM and an SPI boot flash. A SATA interface is available at CompactPCI connector J2. The storage capacity is completed by a CompactFlash socket and a microSD card slot.",
+        " One Gigabit Ethernet via one PCI Express x1 link from the Intel System Controller Hub US15WP and one FPGA-controlled Fast Ethernet via RJ45 connectors are available at the front. Further standard front I/O interfaces are one COM via a D-Sub connector, two USB 2.0, graphics (VGA up to UXGA) and keyboard/mouse.",
+        " An on-board FPGA allows implementation of additional functionality such as serial interfaces, CAN bus controllers, binary I/O, protocol converters, touch controllers etc. to the needs of the individual application in a very flexible way. Before boot-up of the system, the FPGA is loaded from the boot Flash. Updates of the FPGA contents can be made inside the boot Flash during operation and are available after a power-off of the system. A maximum of 3 SA-Adapters can be realized on one F11S, with I/O accessible at the front panel.",
+        " The F11S is completed by a board management controller for temperature and power supervision. It comes with a Phoenix Award BIOS configurable for the final application.",
+        " The F11S is designed for operation in a -40°C to +85°C conduction or convection cooled environment.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

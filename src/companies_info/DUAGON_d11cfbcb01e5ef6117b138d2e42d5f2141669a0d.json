@@ -1,0 +1,26 @@
+{
+    "title": [
+        "D215 - MVB Interface - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/d215/",
+    "content": [
+        "The D215 a multi-purpose MVB interface with embedded processing power. The intelligent component encapsulates all MVB-relevant functions on a standardized 3U module.",
+        " duagon's own MVB controller is implemented on FPGA and supports the up to 4096 process data ports. The train communication network interface complies with the TCN standard IEC 61375 up to class 4. The full set of MVB features are available:",
+        " Process Data",
+        " Message Data (optional)",
+        " Bus Administrator (optional)",
+        " Physical media: ESD+, EMD",
+        " The D215 is available with two different TCN software stacks:",
+        " MDFULL: Passive MVB interface with a duagon MVB controller.",
+        " SERVER/ SERVER2: Active MVB interface including the Message Data Real Time Protocol stack (MD RTP).",
+        " Each configuration is available with or without an integrated MVB Bus Administrator.",
+        " The interface card is accompanied by a host driver packet, providing a unified application programming interface (API) to access the various protocols and functions. The host driver is based on a client-server model, where the host system acts as client and the D215 as server.",
+        " The D215 is designed for harsh rolling stock environment and is fully compliant with EN 50155 and EN 50121 standards e.g. by:",
+        " -40 °C to +85 °C operating temperature range",
+        " coating against humidity",
+        " enhanced EMI and vibration robustness",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

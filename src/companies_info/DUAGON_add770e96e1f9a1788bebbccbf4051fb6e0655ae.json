@@ -1,0 +1,21 @@
+{
+    "title": [
+        "SA15N - 8-Channel Digital I/O Adapter - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/sa15n/",
+    "content": [
+        "Digital I/O for Railway",
+        " The SA15N provides five digital inputs, five digital outputs and three digital bidirectional inputs/outputs. The supported logic level is 3.3 V up to 24 V. The output current for each channel is 500 mA (sinking), but the maximum overall current is 2.5 A.",
+        "Versatile I/O Features",
+        " SA-Adapters are small universal boards providing the line drivers for legacy serial I/O, fieldbus interfaces and other I/O functions. One serial line is provided per adapter, which can be plugged directly to duagon products such as CPU boards as a mezzanine. Alternatively, the adapter can be connected to the front panel via ribbon cable.",
+        "Interface Extensibility",
+        " The SA concept allows to add additional I/O interfaces to duagon products, enhancing flexibility for line transceivers and isolation requirements. Compatibility of SA-Adapters or a combination thereof with duagon products is determined by mechanical, performance, FPGA and operating system criteria and needs to be verified for every board configuration requested.",
+        "Suitable for Railway Applications",
+        " The SA15N complies with the EN 50155 standard for use in railway applications.",
+        "Long-Term Availability",
+        " Long-term availability ensures an extended product life and future-safety.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

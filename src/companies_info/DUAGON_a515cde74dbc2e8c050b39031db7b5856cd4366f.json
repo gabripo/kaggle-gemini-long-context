@@ -1,0 +1,19 @@
+{
+    "title": [
+        "G20 - Intel Core i7 CPU Board - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/g20/",
+    "content": [
+        "The G20 is a versatile 4HP/3U single-board computer supporting a multitude of modern serial interfaces according to the CompactPCI Serial standard. It is thus perfectly suited for data-intensive applications which require high computing-power. The CPU card is equipped with Intel's Core i7 processor running at up to 3.2 GHz maximum turbo frequency and offering multi-core architecture from Intel with full 64-bit support. The G20 supports the Intel Active Management technology which makes it possible to access the board via the network even when it is in soft-off or standby state.",
+        "The memory configuration of the G20 includes a state-of-the-art fast DDR3 DRAM which is soldered to the board to guarantee optimum shock and vibration resistance. An mSATA disk connected via a SATA channel and a microSD card device which is connected via a USB interface offer nearly unlimited space for user applications. ",
+        "The board delivers an excellent graphics performance. Two DisplayPort interfaces are accessible at the boardfront. Using an external adapter two HDMI or two DVI ports can also be realized. In addition the standard front I/O comprises two PCIe-driven Gigabit Ethernet and two USB 2.0 ports.",
+        "Serial interfaces at the rear I/O connectors are 8 USB, 6 SATA interfaces, one DisplayPort or HDMI (instead of one interface at the front panel), 5 PCI Express x1 links, and two PEG x8 links. Up to eight Gigabit Ethernet interfaces can be realized using a rear I/O adapter board. ",
+        "Thermal supervision of the processor and a watchdog for the operating system complete the functionality of the G20.",
+        "The G20 operates in Windows and Linux environments as well as under real-time operating systems that support Intel's multi-core architecture. The InsydeH2O EFI BIOS was specially designed for embedded system applications.",
+        "The G20 is suited for a wide range of industrial applications, e.g. for monitoring, vision and control systems as well as test and measurement. Main target markets comprise industrial automation, multimedia, traffic and transportation, aerospace, shipbuilding, medical engineering and robotics. ",
+        "The G20 comes with a tailored passive heat sink within 4 HP height. The robust design of the G20 makes the board especially suited for use in rugged environments with regard to shock and vibration according to applicable DIN, EN or IEC industry standards. The G20 is also ready for coating so that it can be used in humid and dusty environments and has a guaranteed minimum standard availability of 7 years.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

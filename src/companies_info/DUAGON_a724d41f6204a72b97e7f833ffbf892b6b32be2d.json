@@ -1,0 +1,16 @@
+{
+    "title": [
+        "D013E - Dual Ethernet Interface Component - duagon"
+    ],
+    "url": "https://www.duagon.com/products/network/interfaces/details/d013e/",
+    "content": [
+        "The D013E is a multi-purpose dual Ethernet controller interface with embedded processing power. The integrated Ethernet controllers, designed by duagon, feature hardware prioritisation and very low jitter. The chip-sized, space-saving component encapsulates all Ethernet relevant functions on a small 48 x 50 mm size footprint. It can be considered a communication chip that handles various Ethernet protocols. The D013E lowers the requirements to the host system, as there is no need for additional CPU power for the Ethernet stack. Moreover, the main application does not need to share CPU power with complex Ethernet protocol stacks.",
+        " The D013E is fully compliant with IEEE 802.3 and supports features like Auto Polarity, Auto Negotiation and Auto-DI-X.",
+        " The D013E is prepared for the future “Ethernet on traction vehicles” standard IEC 61375-3-4. It supports various Ethernet protocols like TRDP, TRDP with SDTv2, CIP, IPTCom, PROFINET, UDP or TCP/IP. Different kinds of web services are optionally available. An optional internal switch allows to build daisy chains and to run the appropriate ring protocols. The drivers for the bypass relays are also included (bypass relays themselves are not included). The component integrates the magnetics with a galvanic insulation, the PHY, the complete protocol controller and a simple host interface.",
+        " With duagon’s driver kit the D013E, featuring an easy-to-use UART emulation, can be integrated very quickly on almost any host system through a small register set (each 8-bit long). The D013E does not need a wide address range compared with a solution based on dual ported memory. Different host interfaces like serial (RS/TX), 8bit-parallel or SPI are configurable by bootstrapping pins. The digital interfaces act on 3.3V logic levels fitting most of the modern CPU platforms.",
+        " The D013E is designed for harsh rolling stock environments and is fully compliant with EN 50155.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

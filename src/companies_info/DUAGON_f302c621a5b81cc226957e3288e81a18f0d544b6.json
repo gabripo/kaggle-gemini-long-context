@@ -1,0 +1,18 @@
+{
+    "title": [
+        "F206 - Octal UART Interface Board - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/f206/",
+    "content": [
+        "The F206 is a universal octal UART based on 3U CompactPCI. The physical layer can be realized individually for each channel by means of SA-Adapters.",
+        " SA-Adapters are small universal boards providing the physics for legacy serial I/O, fieldbus interfaces and other small I/O functions. Most SA-Adapters use 9-pin D-Sub connectors which are accessible at the front panel. Alternatively, the adapter can be connected to the front panel via ribbon cable. The SA concept allows to add additional I/O interfaces to the F206, enhancing flexibility with regard to the line transceivers and isolation requirements.",
+        " Two SA-Adapters can be mounted directly on the F206 (single-slot solution), the other maximum six adapters need more front-panel space and are connected to the carrier via ribbon cable. Especially useful adapters for the F206 are isolated and non-isolated adapters for RS232, RS422 and RS485 interfaces. Different types can be used on one F206. ",
+        " The octal UART is realized by means of an FPGA. The register set is fully 16450 compatible, even with larger, 60-byte FIFOs. ",
+        " The FPGA is loaded automatically after power-up from a 2-MB standard NOR Flash device. It is also possible to access this Flash from the CompactPCI bus to update its contents. There is a primary and a secondary FPGA filling in the Flash. Normally just the secondary code is used. Only in case of a fault during the update process the primary contents allow another update of the Flash from the CompactPCI bus.",
+        " Optionally also 16 MB SDRAM can be installed to complement the functions of the FPGA. This DRAM can be used for example as a large buffer memory for more complex protocols.",
+        " The F206 is designed for use in rugged environments. For example, all components are specified for an operating temperature of -40 to +85°C.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

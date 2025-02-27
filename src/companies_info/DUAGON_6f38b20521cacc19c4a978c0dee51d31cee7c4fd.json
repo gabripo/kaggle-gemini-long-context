@@ -1,0 +1,12 @@
+{
+    "title": [
+        "10CB71-90 - Linux Yocto BSP (duagon) for CB71/CB71C, for quick creation of a bootable image (YP Core Sumo 2.5, Linux kernel 4.14.71) - duagon"
+    ],
+    "url": "https://www.duagon.com/products/software/10cb71-90/",
+    "content": [
+        "\n\t\t(Support Discontinued) This board support package (BSP) is intended for quick creation of a bootable image within the Yocto Project environment. Final system configurations may require additional software or a different Linux environment according to the application requirements. Standard Linux distributions like Ubuntu, SUSE or CentOS can also be installed on CB71/CB71C.\n\t",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "title": [
+        "G215 - UART, CAN Bus & Digital I/O Interface Board - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/g215/",
+    "content": [
+        "The G215 is a universal interface board based on 3U CompactPCI Serial. The physical layer can be realized for each channel individually using SA-Adapters.",
+        " SA-Adapters are small universal boards providing the line drivers for legacy serial I/O, fieldbus interfaces and other I/O functions. SA-Adapters typically use 9-pin D-Sub connectors at the front panel and can also be connected to the front panel via ribbon cable. The SA concept enables adding additional I/O interfaces to the G215, enhancing flexibility regarding line transceivers and isolation requirements.",
+        " Two SA-Adapters can be mounted directly on the G215, up to six more adapters need more front-panel space and can be connected to the carrier via ribbon cable. The G215 comes in a standard configuration with five predefined functions on 8 HP: two CAN interfaces, two UARTs and one 8-channel digital I/O interface. Accordingly, duagon offers a large variety of SA-Adapters that can be ordered as needed, e.g. for the UARTs.",
+        " The board's I/O functions are realized by means of an FPGA, making it a very flexible and inexpensive solution for dedicated serial I/O. The card fits all purposes from a customized I/O combination to a specialized 8-port CAN card or even an intelligent I/O board with a Nios soft core on 4, 8 or 12 HP. duagon also offers an option to access further I/O signals including high-speed interfaces via rear I/O on CompactPCI Serial connectors P3 and P4. The FPGA is loaded automatically from a 4 MB serial flash after powerup. To facilitate updating, this flash is user-accessible.",
+        " Configurations of up to 64 MB of DDR2 SDRAM are available to complement the functions of the FPGA. This DRAM can be used as large buffer memory for more complex protocols, for instance.",
+        " The G215 is designed for use in rugged environments. For example, all components are soldered-on and are specified for an operating temperature of -40 °C to +85 °C.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

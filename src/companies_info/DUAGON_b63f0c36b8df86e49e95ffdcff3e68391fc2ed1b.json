@@ -1,0 +1,23 @@
+{
+    "title": [
+        "MH70S - Rugged Data Storage & NAS Computer with Intel Core i3/i5/i7 - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/mh70s/",
+    "content": [
+        "Modular, Built-to-Order Configuration",
+        " The MH70S is a modular turn-key storage PC which meets the requirements of storage intensive applications such as digital video recorders, content servers or NAS. It is designed for use in trains, trams or industrial environments.",
+        " The system consists of a modular 40 HP CompactPCI Serial system which can be wall or rack-mounted. The system can be cooled by using an additional fan tray at the bottom of the system. Cooling is independent of the mounting position.",
+        " The PC offers a multitude of configuration possibilities which are built to order resulting in a fast time-to-market.",
+        "Storage, Ethernet Switch and Wireless Functionality",
+        " Thanks to its up to five HDD/SSD carriers (2 HDDs each), the MH70S forms a high performance and high capacity storage system. Up to eight PoE PSE ports supplying eight devices with a maximum of 100 Watts in total can be implemented. For robust and safe operation, the HDD carriers can be configured in RAID 0, 1 or 5 while the carriers themselves have their own internal RAID 0, 1 and JBOD hardware configuration possibility.",
+        " The system offers up to 2 Gigabit Ethernet interfaces at the front of the CPU board. PCI Express Mini cards for wireless functions such as WLAN and UMTS can also be provided.",
+        "High-Performance Processor and System Control",
+        " The system is based on a high-performance Intel Core i7 processor supporting Intel AMT functionality. Data security can be assured using a TPM module. A system management controller complements the self-control and self-monitoring capabilities. It manages life-time information about, e.g., the fans, power supplies and can be used for manual shutdown.",
+        "Redundant Power Supply",
+        " The pre-configured system offers two PSU slots to ensure reliability and redundancy. Normal operation is guaranteed if at least one external voltage is present. AC or DC power supplies can be implemented. Each power supply has its own power source. This allows the system to be fed from independent power distribution networks assuring fail-over functionality and power-cut bridging.",
+        "\nFor the module's driver contact MEN's support team.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

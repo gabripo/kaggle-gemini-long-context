@@ -1,0 +1,19 @@
+{
+    "title": [
+        "D023E - Compact Dual Real-Time Ethernet Interface - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/networking/interfaces/details/d023e/",
+    "content": [
+        "Handles real-time Ethernet protocols independently from host",
+        " The D023E is a multi-purpose dual Ethernet controller interface with embedded processing power. The space-saving component encapsulates all Ethernet relevant functions on a small 48 x 50 mm size footprint. It can be considered a communication chip that handles various Ethernet protocols. The D023E lowers the requirements to the host system, as there is no need for additional CPU power for the Ethernet stack. Moreover, the main application does not need to share CPU power with Ethernet protocol stacks or cybersecurity features such as encryption.",
+        "Rail-specific network protocols",
+        " The D023E natively supports the most commonly used real-time Ethernet train communication network protocols, including TRDP, EtherNet/IP CIP and more. The interface card provides maximum availability by supporting redundancy protocols including RSTP, and dual-homing. It may be used as time-sensitive networking (TSN) endpoint and supports time synchronization according to IEEE 802.1AS, time-aware shaping and low latency communication. Currently only TRDP over TSN is supported, support for other protocols is planned. It provides a web front-end for easy remote management (diagnostics and configuration purposes). The device may also be configured by the host system, it can be ordered pre-configured to be compatible with the most important OEMs.",
+        "Cybersecurity suite available",
+        " duagon offers different cybersecurity packages to harden the host system. The available packages include features such as secure communication for remote access, centralized user access management, secure event logging and secure firmware updates.",
+        "Easy integration into host system",
+        " The digital interfaces act on 3.3V logic levels fitting most of the modern CPU platforms. The D023E is fully pin-compatible to the predecessor D013E. It is designed for harsh rolling stock environments, and is fully compliant with EN 50155.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

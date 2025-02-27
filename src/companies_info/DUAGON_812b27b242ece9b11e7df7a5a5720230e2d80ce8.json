@@ -1,0 +1,18 @@
+{
+    "title": [
+        "D015E - PC/30 Ethernet Interface - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/networking/interfaces/details/d015e/",
+    "content": [
+        "The D015E is a multi-purpose Ethernet interface on a 40 x 85 mm size footprint (PC/30). It encapsulates all Ethernet relevant functions and can therefore be considered as an Ethernet communication chip for integration on board of a customer PCB. The Ethernet interface is available with different communication stacks.",
+        " The software architecture is based on a Client–Server model. This approach minimizes the CPU requirements of the host system, because the major part of the communication software is running on the duagon interface. This Ethernet interface complies with IEEE 802.3 and its internal logic is prepared for the future \"Ethernet on traction vehicles\" standard IEC 61375-3-4.",
+        " The D015E is designed for the harsh traction environment and conforms to the EN 50121, EN 50155 and IEC 61373 standards, e.g. by:",
+        " -40 to +85°C operating temperature",
+        " Coating against humidity",
+        " Enhanced EMI and vibration robustness",
+        " The D015E is not recommended for new designs",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

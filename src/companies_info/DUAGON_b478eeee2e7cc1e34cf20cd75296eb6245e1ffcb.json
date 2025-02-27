@@ -1,0 +1,25 @@
+{
+    "title": [
+        "BC50M - Rugged Box PC for Transportation with AMD G-Series - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/bc50m/",
+    "content": [
+        "The BC50M is a maintenance-free box computer which has been designed for independent use or as display computer electronics for use in vehicles, e.g. in trains, commercial vehicles, mobile machines or airplanes. It is powered by an AMD Embedded G-Series APU (Accelerated Processing Unit), the T48N, running at 1.4 GHz. The G-Series combines low-power CPUs and advanced GPUs, in this case an AMD Radeon HD 6310, into a single embedded device. The use of the Embedded G-Series makes for high scalability in CPU (single/dual core) and graphics performance (various Radeon GPUs or none at all). The BC50M is equipped with 2 GB of DDR3 SDRAM and offers SD card and mSATA slots. A SATA hard-disk/solid-state drive can be installed within the housing as an option.",
+        "Fanless Operation for Mobile Applications ",
+        " The system is designed for fanless operation at temperatures from -40 °C to +70 °C (+85 °C for up to 10 minutes), its special aluminum housing with cooling fins serves as a heat sink for the internal electronics and in this way provides conduction cooling.",
+        "Wireless Communication ",
+        " On the inside, the system offers two PCI Express Mini card slots with two SIM card slots. By default, one is used for each of the two PCI Express Mini cards, but the first PCI Express Mini card can also switch between the two SIM cards as an option. The necessary antenna connectors can be made available at the front panel.",
+        "Railway-Compliant PSU with Ignition Function",
+        " The BC50M comes with an integrated 30W wide-range DC/DC converter and is compliant with EN 50155 (nominal input voltages 24 and 36 V) as well as with ISO 7637-2 (E-mark for automotive) (nominal input voltages 12 V and 24 V). The power can be switched on and off using an ignition signal on the power connector, and a shutdown-delay time after switching off the ignition signal can be adjusted by software.",
+        "Flexible System Design ",
+        " The combination of the various CPU/GPU options with the available selection of external interfaces (realized via separate graphics and I/O interface boards within the system) makes for an extremely flexible system design that can quickly be tailored to a vast number of applications. The BC50M supports up to two DisplayPort interfaces with a maximum resolution of 2560x1600 each. The DisplayPort interfaces and all other I/O are available at the unit's front panel on standard connectors like USB, 9-pin D-Sub (HD audio and optional serial I/O), 8-pin M12 (Gigabit Ethernet) and DisplayPort.",
+        "\nFor the module's driver contact MEN's support team.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n",
+        "\n- 1x AC/DC power supply (230 V AC / 24 V DC)",
+        "\n- 2x DisplayPort to DVI adapter (active)",
+        "\n- 2x M12 to RJ45 Gbit Ethernet cable, A-coded",
+        "\n- 4x HF cable with U.FL plug to RP-SMA plug\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

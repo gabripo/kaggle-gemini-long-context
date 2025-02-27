@@ -1,0 +1,17 @@
+{
+    "title": [
+        "PX1N - GLONASS & GPS Interface - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/px1n/",
+    "content": [
+        "Provides GLONASS and GPS functionality",
+        " The PX1N is a PCI Express Mini Card providing a GNSS receiver with GLONASS and GPS functionality and can be used in 19\" systems, box PCs and display computers. It supports active or passive antennas, which can be connected to an U.FL connector. The received antenna signals are sent to the host via USB.",
+        "Supports global satellite navigation systems",
+        " The PX1N supports concurrent reception of GPS/QZSS, GLONASS, BeiDou and is Galileo-ready.",
+        "Uses dead reckoning functions for high accuracy positioning ",
+        " The GNSS module provides a 3-axis accelerometer and gyroscope sensors for dead reckoning functions, which enable accurate positioning. Various Satellite-Based Augmentation Systems (SBAS) are also supported. The PX1N provides communication information compliant to the NMEA 0183 protocol.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

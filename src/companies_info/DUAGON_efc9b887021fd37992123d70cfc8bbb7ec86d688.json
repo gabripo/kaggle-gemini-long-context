@@ -1,0 +1,18 @@
+{
+    "title": [
+        "XM1L - ESMexpress COM with Intel Atom XL Series - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/xm1l/",
+    "content": [
+        "The XM1L is a Computer-On-Module of the ESMexpress family. Together with an application-specific carrier board it forms a semi-custom solution for industrial, harsh, mobile and mission-critical environments.",
+        " The XM1L is controlled by the Intel Atom XL processor, an IA-32 core based on 45nm process technology which is qualified for the industrial temperature range. Due to the power architecture of the Intel Atom CPU, the XM1L has a total power consumption of max. 5 to 7 Watts, while having a clock frequency of up to 1.6 GHz.",
+        " The XM1L accommodates up to 2 GB of directly soldered main memory and supports other memory like USB Flash on the carrier board.",
+        " Interfaces from the Intel System Controller Hub US15WP are optimized using exclusively modern serial standards and are all routed from the XM1L for availability on any ESMexpress carrier board. Depending on the version of XM1L, those interfaces include a combination of PCI Express links, LVDS, SDVO, high-definition audio, SATA, Ethernet with wake-on-LAN functionality, and USB. Additional COM interfaces can be made available on the carrier board via USB to COM conversion.",
+        " The XM1L is completed by a board management controller for temperature and power supervision. It comes with a Phoenix Award BIOS configurable for the final application.",
+        " The XM1L is screened or qualified for operation from -50°C to +85°C (Tcase). As all ESMexpress modules it is embedded in a covered frame. This ensures EMC protection and allows efficient conductive cooling. Air cooling is also possible by applying a heat sink on top of the cover. Where operation temperatures are moderate, the module may even do without the frame and cover, with a suitable low-power processorand airflow. ESMexpress modules are firmly screwed to a carrier board and come with rugged industry-proven connectors supporting high frequency and differential signals. Only soldered components are used to withstand shock and vibration, and the design is optimized for conformal coating. All ESMexpress modules support a single 95x125mm form factor.",
+        " For evaluation and development purposes an ATX carrier board is available. The ESMexpress module can be evaluated on a COM Express carrier board via an adapter from ESMexpress to COM Express.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

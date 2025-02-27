@@ -1,0 +1,28 @@
+{
+    "title": [
+        "BL72E - Rugged Embedded Box PC with AMD Ryzen for Transportation - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/bl72e/",
+    "content": [
+        "For IoT or Storage-Intensive Applications",
+        " The BL72E is a fanless, maintenance-free box computer for embedded applications in transportation, e.g., in trains.",
+        " It offers a SATA HDD/SSD shuttle providing the storage capacity necessary for entertainment servers or video surveillance systems, plus eMMC memory and an M.2 slot for PCIe based storage (NVMe).",
+        "Cost-Efficient High-End Processor Performance",
+        " The BL72E is based on AMD's Ryzen V1000 APU family featuring excellent power-per-watt performance and a Radeon Vega next-generation 3D graphics engine. With up to four high-performance processor cores and AMD virtualization support, and up to 32 GB soldered-down DDR4 SDRAM, the BL72E offers powerful computing for handling data intensive work loads efficiently, e.g. for implementation of complex algorithms for deep learning or machine intelligence.",
+        "Multi-Talent for Wireless Communication",
+        " The BL72E can take over typical on-board wireless functions, such as an Internet connection for passengers or locating the vehicle. A GNSS positioning interface is available. Two PCI Express Mini Card slots and two M.2 slots provide maximum flexibility in implementing mobile service standards up to 4G LTE or WLAN IEEE 802.11, and derivates.",
+        " A total of eight externally accessible micro-SIM card slots is available.",
+        "Multitude of I/O",
+        " The BL72E supports one DisplayPort interface with maximum 4K resolution. A multitude of other I/O is available, including four Gigabit Ethernet, audio, two USB 3.2 Gen 1x1, RS232, RS422/RS485, IBIS. Digital I/O, MVB or a CAN interface can optionally be implemented.",
+        "Railway-Compliant PSU with Ignition Function",
+        " The BL72E comes with a class S2 wide range power supply and complies to EN 50155. The power can be switched on and off using an ignition signal on the power connector.",
+        "Fanless Operation for Mobile Applications",
+        " The system offers long-term availability until 2029 and is designed for fanless operation at temperatures from -40 °C to +70 °C (+85 °C for up to 10 minutes). Its rugged aluminum housing with cooling fins serves as a heat sink and provides conduction cooling.",
+        "\n- 1x AC/DC power supply, 230 V AC to 24 V DC, 60 W, with 1x 4-pin M12 A-coded power cable adapter",
+        "\n- 1x DisplayPort cable (DP to DP)",
+        "\n- 3x 8-pin M12 X-coded to RJ45 Gigabit Ethernet cable\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

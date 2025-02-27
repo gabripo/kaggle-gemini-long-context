@@ -1,0 +1,22 @@
+{
+    "title": [
+        "CC10S - ARM i.MX 6 SBC for Control of Multiple 7\" to 15\" Displays - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/cc10s/",
+    "content": [
+        "The CC10S is a small-footprint multi-display controller board based on the NXP (formerly Freescale) ARM i.MX 6 Series and provides full HD resolution for 7\" to 15\" panels, e.g., for driver desk displays or in-seat infotainment in trains or public buses, in aircraft, in medical devices, or HMIs in automotive applications.",
+        "Scalable Performance with ARM i.MX 6 Series",
+        " With its Cortex-A9 architecture, the CC10S supports different types of the i.MX 6Solo, 6DualLite, 6Dual and 6Quad families. This makes the controller module widely scalable from low-end to high-end graphics requirements. Where less performance is needed, you can optimize costs by choosing a single- or dual-core processor instead of a quad core. In any case, the board provides dual-channel LVDS with a maximum resolution of 1920 by 1200 pixels (WUXGA).",
+        "Powerful Graphics with a Small Footprint",
+        " The CC10S supports up to 4 GB onboard DDR3 SDRAM, which is abundant even for demanding imaging tasks. A soldered eMMC device provides sufficient mass storage for Linux or VxWorks operating systems and application software, and in many cases also for image data.",
+        " This makes the CC10S controller a solid base for very compact solutions. Still it can handle two independent screen contents due to its multi-stream-capable HD video engine, which delivers up to 1080p60 decode, 1080p30 encode and 3D video playback in HD. Separate 2D and/or OpenVG Vertex acceleration engines make for optimal user interface experience.",
+        "Solid I/O Functions",
+        " With one Gigabit Ethernet interface (1000BASE-T) and two USB 2.0 ports, the CC10S covers the needs of a typical panel computer. All interfaces are accessible using onboard connectors that can be led to a housing's exterior as needed using ribbon cable.",
+        " A USB-to-UART port allows to connect a PC as a terminal, e.g., for integration or software maintenance.",
+        "Rugged for Harsh Environments",
+        " Although the display controller is suited for all kinds of application areas, it is particularly suited for harsh environments. All components are available qualified for an extended temperature range of -40 °C to +85 °C, are soldered to withstand shock and vibration, and are prepared for conformal coating.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "title": [
+        "F14 - Intel Pentium M CPU Board - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/f14/",
+    "content": [
+        "Equipped with the high-performance Intel 2-GHz Pentium M down to the 1-GHz ultra low voltage Celeron M processor, the single-board computer F14 is a versatile 4 HP / 3U (single-slot, single-size Eurocard) CompactPCI board, designed especially for embedded systems which require high computing and graphics performance and low power consumption. All versions of the CPU card come with tailored passive heat sinks within 4 HP height. Depending on the processor version forced air cooling is required inside the CompactPCI system.",
+        " The F14 is suited for a wide range of industrial applications, for example for monitoring, vision and control systems as well as test and measurement. Main target markets comprise industrial automation, multimedia, transportation (railways, commercial vehicles), aerospace, shipbuilding, medical engineering and robotics. The robust design of the F14 together with the low-power Pentium M processors make the board especially suited for use in rugged environments in mobile applications with regard to temperature, shock, vibration, humidity or dust according to the applicable DIN, EN or IEC industry standards. The F14 is also ready for coating so that it can be used in humid and dusty environments.",
+        " The F14 offers a 32-bit/33-MHz interface to the CompactPCI bus and can alternatively also be used without a bus system. In combination with a specific side card it can also perform system-slot functionality in a CompactPCI Express system.",
+        " Four PCI Express links for high-speed communication requirements (such as Gigabit Ethernet, graphics) are supported on the board.",
+        " The DDR2 DRAM is soldered to F14 to guarantee optimum shock and vibration resistance. An IDE-driven robust CompactFlash device offers nearly unlimited space for user applications. Apart from parallel ATA support, two serial ATA lines are also available.",
+        " The standard I/O available at the front panel of F14 includes graphics on VGA connector, two PCIe-driven Gigabit Ethernet interfaces (alternatively 1 Gigabit / 1 Fast Ethernet) as well as two USB 2.0 ports.",
+        " The F14 can be extended by a side card to 8 HP. I/O functions realized on the side card include two digital video outputs for flat panel connection via DVI, another four USB 2.0 ports and HD Audio. The F14 is also prepared for rear I/O where for example another two USB 2.0 ports can be connected.",
+        " Two watchdogs for thermal supervision of the processor and board temperature as well as for monitoring the operating system complete the functionality of the F14.",
+        " The F14 operates in Windows and Linux environments as well as under major real-time operating systems like VxWorks or QNX. The Award BIOS was especially designed for embedded system applications.",
+        " Equipped with Intel components that come exclusively from the Intel Embedded Line, the F14 has a guaranteed minimum standard availability of 5 years.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

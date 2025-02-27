@@ -1,0 +1,23 @@
+{
+    "title": [
+        "G28M - Embedded Single Board Computer with 11th Generation Intel Xeon W-11000 Processors - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/g28m/",
+    "content": [
+        "High-End Embedded Computing",
+        " The duagon G28M is a 3U CompactPCI Serial CPU board featuring 11th Gen Intel Xeon W-11000E processors with up to 8 cores and up to 64 GB of soldered dual-channel DDR4-3200 ECC RAM. The G28M is perfect for onboard railway applications (rolling stock) and can be used as central maintenance and virtualization platform and main computing unit for passenger Wi-Fi and internet access.",
+        "Scalable and Rugged",
+        " CPU performance can be scaled from 25 W to 45 W TDP with configurations of 4 to 8 cores to perfectly suit operational needs even in harsh ambient temperatures of up to +70 °C (+85 °C for 10 min.). A custom solid block heat sink provides optimal heat dissipation without the use of moving parts. All components are soldered for protection against shock and vibration according to applicable DIN, EN or IEC industry standards. To make it even more enduring, all models come with coating and underfilling as standard. A fast 120 GB NVMe storage module is included on every G28M model.",
+        "Comprehensive Management",
+        " A versatile board management controller provides intelligent monitoring and supervision of all vital signals including supply and on-board voltages, temperatures and a watchdog for the OS. Additionally, the G28M supports Intel AMT remote out-of-band management and holds a discrete TPM module for hardware-based system security.",
+        "Flexible Front I/O",
+        " The G28M features two M12 Ethernet front connectors. Other front I/O include one USB 3.2 Gen 2x1 Type-A connector and one Type-C connector supporting up to USB 3.2 Gen 2x1 speed and DP Alternate Mode. Dual 10G Ethernet interfaces are available on an 8 HP standard product version for high data throughput and direct connection to the network backbone.",
+        "Future-safe with Certified Reliability",
+        " The G28M supports Linux and Windows environments as well as real-time operating systems. It is certified for Red Hat Enterprise Linux 9.2-9.x, offering proven performance and reliability.",
+        " Long-term availability ensures an extended product life and future-safety. The G28M is backwards compatible to predecessors G25A (G28M with 10G Ethernet) and G23.",
+        "3U CPCI Serial, 8 HP, Intel Xeon W-11865MRE, 8 cores, 16 threads, 2.1 GHz, 35 W TDP, 64 GB DDR4 (ECC) RAM, 120 GB NVMe, 2x 10G Ethernet M12, 2x 1G Ethernet M12, 1x USB 3.2 Gen 2x1, 1x USB 3.2 Gen 2x1 and DisplayPort over USB-C, 1x console redirection via USB, 1x RS232 isolated and 1x RS422/485 isolated on shared 9-pin D-Sub, -40 °C to +70 °C, conformal coating",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

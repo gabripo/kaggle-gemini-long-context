@@ -1,0 +1,22 @@
+{
+    "title": [
+        "F18 - Intel Core 2 Duo CPU Board - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/f18/",
+    "content": [
+        "Equipped with the Intel high-performance Core 2 Duo processor T7500 running at 2.2 GHz, the F18 is a versatile 4HP/3U (single-slot, single-size Eurocard) single-board computer based on the latest multi-core processor architecture from Intel with full 64-bit support. The CPU card delivers an excellent graphics performance and is designed especially for embedded systems which require high computing performance with low power consumption.",
+        "The F18 offers a 32-bit/33-MHz CompactPCI bus interface and can alsobe used without a bus system. In combination with a specific side card it can also perform system-slot functionality in a CompactPCI Express system.",
+        "A total of six PCI Express lanes for high-speed communication (such as Gigabit Ethernet, graphics) are supported on the F18. 2 x1 PCIe links are used for the two onboard Ethernet interfaces. 4 x1 or 1 x4 PCIe links are available on a specific side card.",
+        "The DDR2 DRAM is soldered to F18 to guarantee optimum shock and vibration resistance. A robust IDE CompactFlash device offers nearly unlimited space for user applications. In addition to parallel ATA, three serial ATA lines are available.",
+        "The standard I/O available at the front panel of F18 includes VGA graphics, two PCIe-driven Gigabit Ethernet interfacesas well as two USB 2.0 ports.",
+        "The F18 can be extended by different side cards. Additional functions include two digital video interfaces for flat panel connection via DVI (multimedia), a variety of different UARTs or another four USB 2.0 ports, SATA forhard disk or RAID connection and HD audio.The F18 is also prepared for rear I/O where for example another two USB 2.0 ports can be connected.",
+        "Two watchdogs for thermal supervision of the processor and board temperature as well as for monitoring the operating system complete the functionality of the F18.",
+        "The F18 operates in Windows and Linux environments as well as under real-time operating systems that support Intel's multi-core architecture. The Award BIOS was specially designed for embedded system applications.",
+        "Equipped with Intel components exclusively from the Intel Embedded Line, the F18 has a guaranteed minimum standard availability of 5 years.",
+        "The F18 is suited for a wide range of industrial applications, e.g. for monitoring, vision and control systems as well as test and measurement. Main target markets comprise industrial automation, multimedia, traffic and transportation, aerospace, shipbuilding, medical engineering and robotics. ",
+        "The F18 comes with a tailored passive heat sink within 4 HPheight. The robust design of the F18 make the board especially suited for use in rugged environments with regard to shock and vibration according to applicable DIN, EN or IEC industry standards. The F18 is also ready for coating so that it can be used inhumid and dusty environments.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

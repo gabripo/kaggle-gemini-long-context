@@ -1,0 +1,30 @@
+{
+    "title": [
+        "MH50C - duagon SAFE CONTROL Vital System Controller - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/mh50c/",
+    "content": [
+        "MH50C is a central controller of the duagon SAFE CONTROL (d-SC) System. It is a modular system platform usable for safety-critical train applications like train control, automatic train operation (ATO) and automatic train protection (ATP) up to SIL 4 (EN5012x) or SIL3 (IEC61508).",
+        "Modular I/O Configuration",
+        " Being based on modular 40 HP CompactPCI, the system is always configured with a safe system CPU, a real-time Ethernet card, a power supply unit and a shelf controller. Other cards are added as built-to-order (BTO) options or by the user. The safe I/O cards support the common I/O requirements requested in trains.",
+        " The composition of safe CPU card, safe train I/Os and interfaces, such as MVB, CAN or serial interfaces to connect to legacy train equipment makes the controller ideal for use in safety-critical rolling stock applications.",
+        "Application-Ready, Open Platform",
+        " The MH50C is an application-ready, open platform. This means that the user adds his application based on the basic operating system and driver software.",
+        "Part of duagon SAFE CONTROL System",
+        " d-SC is a modular SIL 4 certifiable family of CompactPCI-based standard products usable for every kind of safety-critical railway application - from a single function to the main control system of the train. It can be configured to control anything in the train that requires functional safety with requirements from SIL 1 up to SIL 4.",
+        " d-SC communicates via standard real-time Ethernet and can be configured to interface to any type of consist fieldbus network like MVB, CANopen, Profinet etc. This makes it easy to integrate into a TCN network as well as into regionally different Train Control Systems like ETCS, CTCS, ATCS or Klub-U. The high level of flexibility of d-SC results in significant cost and time savings during computerization of the train.",
+        "Certification and Standards Compliance",
+        " d-SC components come with certification packages and complete support for the safe operating system QNX, including safe protocols, and provides the technical possibility to run a safety PLC, again saving cost and time for implementation and for certification of the final system. d-SC is developed according to EN 50128 and EN 50129 standards and complies with the environmental requirements for railway applications: shock, vibration, humidity, dust, isolation, PSU hold-up times, EMC regulations etc.",
+        "Mounting and Cooling Options",
+        " The system can be wall or rack-mounted, and is cooled using an additional fan tray at the bottom of the system. Cooling is independent of the mounting position.",
+        "\nThe product consists of the 40 HP basic system including backplane and mounting rails and provides:",
+        "\n- 1 slot for PSU",
+        "\n- 1 CompactPCI PlusIO slot for the CPU board",
+        "\n- 6 CompactPCI peripheral slots",
+        "\n- 1 CompactPCI peripheral slot reserved for F305",
+        "\nThe barebone configuration comprises a number of standard, non-configurable components such as the PSU and CPU board. I/O boards are completely configurable. The Technical Data list all components that can be implemented in the system. Choose the functionality you need and contact duagon's sales team to verify which board combinations are feasible.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

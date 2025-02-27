@@ -1,0 +1,23 @@
+{
+    "title": [
+        "CB71 - Rugged COM Express Module with AMD Ryzen Embedded - duagon"
+    ],
+    "url": "https://www.duagon.com/products/computing/processor-modules/details/cb71/",
+    "content": [
+        "Truly Rugged COM Express Module",
+        " The CB71 is a rugged COM Express module with Type 6 Pin-Out for demanding applications in the railway, public transportation and industrial markets. Its high-performance features match the requirements of applications like data acquisition, infotainment, transcoding or live 3D. The rugged CB71 is designed for operation from -40 °C to +85 °C. To withstand serious shock and vibration, only soldered-down components are used. The design is optimized for conformal coating.",
+        "Also for Extremely Harsh Environments",
+        " For applications that need reliable operation even under the harshest environmental conditions, a specially hardened version is available - the CB71C. CB71C modules are embedded in a closed aluminum frame that ensures optimum EMC protection and efficient conduction cooling. Direct air cooling is possible by placing a heat sink on the cover. The innovative mechanical design around the COM.0 electronics makes it an ultra-rugged module.",
+        "Powerful Processing and Graphics on a Single Chip",
+        " The CB71 is based on the AMD Ryzen Embedded V1000/R1000 APU family. It comes with a Radeon Vega next-generation 3D graphics engine and supports up to four displays with up to 4k resolution, without the need for additional graphics hardware. With two (R1000) or four (V1000) high-performance processor cores and AMD-V extension, the CB71 is also suitable for virtualization.",
+        "Excellent Price/Performance & Flexibility",
+        " The CB71 can be equipped with an R1000 dual-core APU or a V1000 quad-core APU offering long-term availability and scalable performance and supporting ECC. Passive cooling is possible with low-power versions.",
+        "Safety and Security",
+        " The board management controller has supervision functions (onboard voltages, temperature etc.) that make the board suitable for safety-related applications. In addition, the CB71 has a Trusted Platform Module and supports hardware memory encryption, providing protection against both physical and inter-VM storage attacks. This is essential for security-critical applications such as payment and ticketing terminals, fleet management or monitoring.",
+        "Memory and I/O",
+        " The CB71 can be equipped with up to 32 GB of directly soldered DDR4 main memory and up to 64 GB eMMC. Available high-speed interfaces include PCI Express 3.0 links, DDI (DP, eDP, HDMI), SATA 3.0, Gigabit Ethernet and USB 3.2 Gen 1x1.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

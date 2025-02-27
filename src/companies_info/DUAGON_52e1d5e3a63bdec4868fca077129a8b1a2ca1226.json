@@ -1,0 +1,20 @@
+{
+    "title": [
+        "BC50F - Rugged Box PC for Industrial Automation with AMD G-Series - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/bc50f/",
+    "content": [
+        "The BC50F is a fanless, maintenance-free box computer that has been designed for real-time Ethernet applications in industrial environments, e.g. for machine control, robotics or vehicles.",
+        " It offers two real-time Ethernet interfaces implemented using a Hilscher PCI Express Mini Card.",
+        " It is powered by an AMD Embedded G-Series APU (Accelerated Processing Unit), the T48N, running at 1.4 GHz. The G-Series combines low-power CPUs and advanced GPUs, in this case an AMD Radeon HD 6310, into a single embedded device.",
+        " The use of the Embedded G-Series makes for high scalability in CPU (single/dual core) and graphics performance (various Radeon GPUs or none at all).",
+        " The BC50F is equipped with 2 GB of DDR3 SDRAM and offers SD card and mSATA slots.",
+        " The system is designed for fanless operation at temperatures from 0 to +60°C, its special aluminum housing with cooling fins serves as a heat sink for the internal electronics and in this way provides conduction cooling.",
+        " The BC50F supports up to two DisplayPort interfaces with a maximum resolution of 2560x1600 each. The DisplayPort interfaces and all other I/O are available at the unit's front panel on standard connectors like USB, 9-pin D-Sub (optional serial I/O), RJ45 (Gigabit Ethernet) and DisplayPort.",
+        " The BC50F comes with its own integrated 24 VDC nom. (16 to 36 V) power supply.",
+        " The combination of the various CPU/GPU options with the available selection of external interfaces (realized via separate graphics and I/O interface boards within the system) makes for an extremely flexible system design that can quickly be tailored to a vast number of applications.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "title": [
+        "PX6 - Security Smart Card Reader - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/px6/",
+    "content": [
+        "Standard PCI Express Mini Card",
+        " The PX6 is a Full-Mini PCI Express Mini Card with a smart card slot, designed for embedded devices which require secure communication (encryption/authentication).",
+        " It is build in a stacked structure, consisting of one PCI Express Mini Card to connect on a carrier board and one mezzanine card for another plug-on PCI Express Mini Card for, e.g., WLAN or Mobile (LTE) modem.",
+        "Enables Multiple Remote Tasks via Cloud",
+        " With the PX6, for example, any device can be easily integrated in a cloud environment. This may be required for maintenance, service or diagnostic purposes. In combination with a customer smart card plugged into the smart card slot, the PX6 provides secure authentication on the remote cloud server.",
+        "Secure Communication",
+        " The secure communication is realized with the mechanisms provided by VPN connection. Therefore, the smart card stores the certificate plus the private key used for authentication. In addition, the smart card is secured with a PIN before getting access to the private key.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "title": [
+        "F75P - Vital Embedded Single Board Computer, 3 Intel Atom E6xx - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/f75p/",
+    "content": [
+        "The F75P is a COTS safe computer with onboard functional safety that unites three CPUs on one 3U CompactPCI PlusIO card. It makes Intel Atom E6xx (\"E600\") performance with dual redundancy extremely compact, mainly targeting railway applications. Two independent Control Processors (CP) with independent DDR2 RAM and Flash and a supervision structure provide safety: For SIL 3 / SIL 4: With redundant software running on F75P and, e.g., with the software instances on the two CPs comparing their output. This way the board becomes a fail-silent subsystem, i.e. it can shut down in case of a fatal fault.",
+        " For up to SIL 2: Using just one of the two CPs or using both CPs independently for different applications. This way on each CP a 1oo1D safety application up to SIL 2 can be realized.",
+        " Its I/O Processor (IOP) is built up like a classic CompactPCI CPU board, including DDR2 RAM, front and rear I/O. The front connectors include VGA, two USB 2.0, and two 100-Mbit Ethernet channels. At the rear, the board provides another four USB 2.0, two Fast Ethernet ports, one 3-Gbit SATA and one PCI Express x1 link. These interfaces comply with the standardized pinout of CompactPCI PlusIO (PICMG 2.30). An onboard mSATA slot makes for scalable, robust mass storage. The intelligent board management controller of the IOP logs events such as reset, overvoltage or undervoltage in a non-volatile FRAM.",
+        " The Control (CP) and I/O Processors (IOP) communicate via internal links provided by an FPGA. The CPs are designed to run a deterministic real-time operating system such as the QNX Neutrino RTOS Safe Kernel. It is also possible to implement diversitary software on both kernels. All three CPUs support Linux and QNX.",
+        " The F75P can replace multiprocessing systems with CPU redundancy and I/O by a small-footprint, low-power solution that is flexible for different types of application scenarios. It uses a single +5 V supply voltage to allow operation with external power supplies that do not generate +3.3 V.",
+        " F75P-based systems are generally certifiable up to SIL 4. Since the card has no voter of its own, the software implements and controls functional safety behavior. The customer can either add the software himself or purchase it from duagon. The safety features such as the CP supervisors are designed to SIL 4 according to [EN50129]. A railway certification package including the \"safety case\" document and a certificate from TÜV SÜD is available.",
+        " Its rugged set-up also make the F75P rail-ready: with assets like conformal coating and an operating temperature of -40 °C to +70 °C (10 min @ +85 °C) with qualified components, it is fully EN 50155 compliant. A 4-HP version is available with RJ45 Ethernet connectors and a reduced temperature range for system design, while a 6 HP version with RJ45 Ethernet connectors and another standard card with 8 HP width with M12 front connectors have a larger heat sink.",
+        "\nThe product consists of the 40 HP basic system including backplane and mounting rails and provides:",
+        "\n- 1 slot for PSU",
+        "\n- 1 CompactPCI PlusIO slot for the CPU board",
+        "\n- 6 CompactPCI peripheral slots",
+        "\n- 1 CompactPCI peripheral slot reserved for F305",
+        "\nThe barebone configuration comprises a number of standard, non-configurable components such as the PSU and CPU board. I/O boards are completely configurable. The Technical Data list all components that can be implemented in the system. Choose the functionality you need and contact duagon's sales team to verify which board combinations are feasible.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDetails\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

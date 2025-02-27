@@ -1,0 +1,24 @@
+{
+    "title": [
+        "BL74W - High-Performance Rugged Embedded Box PC with 5G - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/computing/box-pc/details/bl74w/",
+    "content": [
+        "HIGH-PERFORMANCE RUGGED BOX PC",
+        " The BL74W is featuring 13th Gen Intel Core processors with up to 14 cores (6P+8E) and up to 96 GB of soldered dual-channel DDR5-5200 IBECC RAM. Introducing Intel’s new hybrid architecture with a combination of Performance and Efficiency cores, the BL74W offers a scalable CPU performance with options ranging from 15 to 45 W TDP and a plenty of P/E core configurations to perfectly suit operational needs even in harsh ambient temperatures of up to +70 °C (+85 °C for 10 min.). The BL74W is an excellent choice for demanding data processing and communication applications including virtualization, passenger internet access and intelligent CCTV supported by AI inference.",
+        "PASSENGER INTERNET SUPPORTED BY 5G",
+        " Featuring up to four 5G modems, the BL74W is a great platform for deploying passenger internet access on rolling stock vehicles. By leveraging advanced network aggregation techniques, it is possible to connect to multiple 5G networks simultaneously and combine the throughput and deliver higher internet speeds to passengers. Distribution of network traffic is supported by two 2.5G and two 10G Ethernet interfaces.",
+        "GATEWAY TO EMBEDDED AI",
+        " The integrated Intel Iris Xe GPU with 96 Execution Units is AI-ready for a wide range of applications like intelligent CCTV with object and anomaly detection for improved passenger security. Intel OpenVINO toolkit, combined with the accessibility of pretrained models such as YOLO, serves as a robust foundation for seamless deployment of AI inference applications in real-world scenarios.",
+        "FANLESS OPERATION",
+        " The rugged aluminum housing is optimized for conduction cooled (fanless) operation in high ambient temperatures. Deep cooling fins help to generate hot air flow away from the housing in a chimney effect. This results in a homogeneous heat distribution without hot spots. The BL74W can dissipate up to 95 W of thermal power at +70 °C ambient.",
+        "COMPREHENSIVE MANAGEMENT",
+        " A versatile board management controller provides intelligent monitoring and supervision of all vital signals including supply and on-board voltages, temperatures, and a watchdog for the OS.",
+        " Additionally, the BL74W supports Intel AMT remote out-of-band management and holds a discrete TPM module for hardware based system security.",
+        "This Product is Coming Soon",
+        " The BL74W will be available once conformity assessments are completed.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "title": [
+        "F215 - UART, CAN Bus & Digital I/O Interface Board - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/f215/",
+    "content": [
+        "All-in-one Customizable Interface Solution",
+        " The F215 is a universal interface board based on 3U CompactPCI. The physical layer can be realized individually for each channel by means of SA-Adapters.",
+        "Featuring SA-Adapter Flexibility",
+        " SA-Adapters are small universal boards providing the line drivers for legacy serial I/O, fieldbus interfaces and other small I/O functions. Most SA-Adapters use 9-pin D-Sub connectors which are accessible at the front panel. Alternatively, the adapter can be connected to the front panel via ribbon cable. The SA concept allows to add additional I/O interfaces to the F215, enhancing flexibility with regard to the line transceivers and isolation requirements.",
+        "Tailored Extensibility",
+        " Two SA-Adapters can be mounted directly on the F215, the other maximum six adapters need more front-panel space and are connected to the carrier via ribbon cable. The F215 comes in a standard configuration with five pre-defined functions on 8 HP: two CAN interfaces, two UARTs and one 8-channel digital I/O interface. SA-Adapters are not included in the delivery, because different types are available, e.g. for the UARTs. They can be ordered as needed.",
+        "Multipurpose FPGA",
+        " The board's I/O functions are realized by means of an FPGA, making it a very flexible, inexpensive solution for dedicated serial I/O. The card can become \"everything\" from a customized I/O combination to a specialized 8-port CAN card or even an intelligent I/O board including a Nios soft core, on 4, 8 or 12 HP. The FPGA is loaded automatically after power-up from a 4 MB serial Flash. It is also possible to access this Flash from the CompactPCI bus to update its contents.",
+        "Ruggedized Board",
+        " The F215 is designed for use in rugged environments. For example, all components are soldered-on and are specified for an operating temperature of -40 °C to +85 °C.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

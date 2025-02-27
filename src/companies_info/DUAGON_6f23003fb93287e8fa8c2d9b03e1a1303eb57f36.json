@@ -1,0 +1,16 @@
+{
+    "title": [
+        "EM1N - Embedded System Module COM with MPC5200B - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/em1n/",
+    "content": [
+        "The EM1N Computer-On-Module can be supplied as a stand-alone module, with an application-specific carrier card and/or with additionally plugged PCI-104 modules. The EM1N is controlled by the MPC5200B PowerPC processor which was specially developed for automotive applications and which operates at up to 400 MHz and 700 MIPS. The complete ESM module in standard form has an operational temperature of -40 to +85°C. The CPU consumes less than 1 W at 384 MHz. The EM1N is equipped with up to 256 MB soldered SDRAM and up to 1 GB NAND Flash as well as with 16 MB additional SDRAM, up to 8 MB boot Flash and 2 MB battery-backed SRAM.",
+        "The EM1N provides two Fast Ethernet interfaces, one serial line and USB 1.1 at its front panel. As an alternative to RJ45, D-Sub connectors guarantee reliable functions also in harsh environments. Two CAN controllers with V2.0A/B CAN protocol are included in the MPC5200B. The physical CAN interfaces are accessible via SA-Adapters. Further UARTs and other additional I/O functions can berealized in the on-board FPGA and accessed via a carrier board. The functionality of the FPGA is dynamically loaded by the application software.",
+        "The EM1N comes with MENMON support. This firmware/BIOS can be used for bootstrapping operating systems (fromdisk, Flash or network), for hardware testing, or for debugging applications without running any operating system.The EM1N is designed to operate under harsh environmental conditions including -40 to +85°C operation temperature, shock, vibration, humidity. It focuses on applications in transportation (railways), automotive and avionics.",
+        "For a first evaluation of the functions of the EM1N it is strongly recommended to use the EK6N ESM starter kit. The kit consists of the standard CPU module, an FPGA loaded with additional I/O functions, the carrier card with I/O connectors, an external PSU, VGA and RJ45 to D-Sub cables, and an adapter for mounting a PCI-104 module.",
+        "ESM modules are complete computers which consist of the hardware (CPU, chip set, memory, I/O) which is not fixed to any application-specific function, and an FPGA programmed in VHDL code for user-defined I/O. ESM modules are based on PCI. They have two system connectors: J1 has a fixed signal assignment, while J2 is variable depending on the final application-specific configuration of the ESM and the carrier board. J2 also feeds the I/O signals of the functions programmed in the FPGA to the carrier card.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

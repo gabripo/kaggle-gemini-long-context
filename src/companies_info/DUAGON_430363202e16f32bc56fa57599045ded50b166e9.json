@@ -1,0 +1,33 @@
+{
+    "title": [
+        "DC15 - Rugged 10.4\" Panel PC with Front Keys or Touch Screen - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/dc15/",
+    "content": [
+        "Robust Panel PC for Interactive Rail Applications",
+        " The DC15 panel PC is a rugged, fanless and maintenance-free human-machine interface (HMI) for railway applications. It features a 10.4\" display and a projected capacitive touch screen or 32 illuminated front keys.",
+        " Its small, ultra-flat mechanical design and configuration options save space in the driver cabin and allow the panel to be tailored for all types of applications in different train models. In addition, its full software compatibility with the 12.1\" DC17 panel PC both increases flexibility and lowers costs, e.g., if an upgrade to a larger panel is necessary.",
+        "High-Quality, High-Resolution Display",
+        " The DC15 houses a robust impact-resistant XGA TFT LCD display with LED backlight, and features high illumination intensity. This ensures good readability, even when exposed to sunlight. It also features a buzzer for alarm purposes, as well as LEDs and a light sensor at the front.",
+        " Due to its high resolution and optimized usability, it is a perfect choice for applications like CCTV.",
+        "Powerful & Energy-Efficient Computing",
+        " Built around a T40E AMD Dual Core processor with 1.0 GHz, the DC15 is equipped with 2 GB RAM and a 16 GB mSATA disk. Standard interfaces include two Fast Ethernet, one USB, one CAN, one audio, one GPIO, and one serial - all available on M12 connectors at the back of the panel PC.",
+        " An M.2 slot and PCI Express Mini Card interface can control wireless communication functions like 2G, 3G, 4G and GPS. Two micro-SIM card slots with dual-SIM functionality are accessible at the back of the panel.",
+        "Flexible Rail Network Connection Options",
+        " The DC15 can provide Multifunction Vehicle Bus (MVB) master or slave support where necessary, by adding an MVB PCI Express Mini Card from Duagon. This makes the display scalable for different applications.",
+        "Extremely Rugged, Perfectly Rail-Ready",
+        " The DC15 comes with an extremely rugged housing with an IP65 compliant front. It supports a railway-compliant power supply of 24 or 110 VDC, its internal PSU complying with EN 50155 class S2. Also in compliance with the standard, the DC17 operates in a -40 °C to +70 °C environment (+85 °C for 10 minutes), achieved through fanless conduction-cooling technology.",
+        " All electronic components are soldered to withstand shock and vibration, backed up by its solid M12 connectors, and are protected by conformal coating.",
+        " The panel PC meets all important requirements for railway equipment for fast, competitive time-to-market even in mission-critical environments. At the same time its long availability and life-time of seven years reduces overall system costs.",
+        "\n- 1x power supply cable to power 4-pin M12",
+        "\n- 2x 4-pin M12 to RJ45 for Ethernet cable",
+        "\n- 1x 5-pin M12 to USB type A recept. cable",
+        "\n- 1x 5-pin M12 to CAN 9-pin D-Sub recept. cable",
+        "\n- 1x 5-pin M12 to RS232 9-pin D-Sub plug cable",
+        "\n- 1x 8-pin M12 to audio 9-pin D-Sub plug cable",
+        "\n- 1x 5-pin M12 to GPIO 9-pin D-Sub plug cable\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

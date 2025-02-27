@@ -1,0 +1,19 @@
+{
+    "title": [
+        "D017M - PCI Express Mini Card MVB Interface - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/d017m/",
+    "content": [
+        "MVB Interface with Flexible Configuration",
+        " The D017M is an MVB interface card for PCI Express Mini systems. The module provides one line-redundant galvanically isolated interface with lines A and B. EMD or ESD+ can be chosen as physical layers.",
+        " duagon's own MVB controller is implemented in an FPGA and supports all 4096 process data ports. An additional 32-bit soft processor handles the complete message data stack with an easy-to-use interface. The D017M fully complies with the TCN standard IEC 61375 up to MVB class 4. The optional bus administrator manages the complete MVB network and can be configured using the duagon D2000 network tool.",
+        " To fulfill the requirements of the different applications, the physical layer of the MVB (line transceivers, galvanic isolation, power generation for MVB termination) is either included in the PCIe Mini Card or is incorporated on a dedicated PHY board. Two D-Sub connectors can also be delivered by selecting the corresponding ordering option.",
+        "Host Driver & API Support",
+        " The interface card is accompanied by a host driver packet, providing a unified application programming interface (API) to access the various protocols and functions. The host driver is based on a client-server model, where the host system acts as client and the D017M as server. The driver packet is available for different operating systems, such as Windows and Linux, and can easily be ported to any embedded OS.",
+        "For Rolling Stock Environments",
+        " The D017M is designed for harsh rolling stock environment and complies with the EN 50155 standard: it withstands -40 °C to +85 °C operating temperatures, is coated against humidity and provides enhanced EMI and vibration robustness.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

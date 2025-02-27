@@ -1,0 +1,18 @@
+{
+    "title": [
+        "MM1 - ESMini COM with Intel Atom - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/mm1/",
+    "content": [
+        "The MM1 is an ultra-small Computer-On-Module of the rugged ESMini family. Together with an application-specific carrier board it forms a semi-custom solution for industrial, harsh, mobile and mission-critical environments.",
+        " The MM1 is controlled by the Intel Atom processor, a first generation IA-32 core based on 45nm process technology. Due to the new power architecture of the Intel Atom CPU, the MM1 has a total power consumption of max. 5 to 10 W, while having a clock frequency of up to 1.6 GHz.",
+        " The MM1 accommodates up to 1 GB of directly soldered main memory and supports other memory like USB Flash on the carrier board.",
+        " The MM1 offers a multitude of I/O: besides modern serial I/O like one PCI Express x1 link, LVDS, SDVO, high-definition audio, SATA and USB, it also provides legacy I/O (2 CAN, 2 COM, 2 Fast Ethernet, 2 I2C) and up to 120 FPGA signals.",
+        " The MM1 is completed by a board management controller for temperature and power supervision. It comes with a Phoenix Award BIOS configurable for the final application.",
+        " The MM1 is screened for operation in a -40°C to +85°C temperature range (Tcase, -25°C to +85°C for board versions with 1 GB DRAM). As all ESMini modules it is embedded in a covered frame. This ensures EMC protection and allows efficient conductive cooling. Air cooling is also possible by applying a heat sink on top of the cover. Where operation temperatures are moderate, the module may even do without the frame and cover, with a suitable low-power processor and airflow. ESMini modules are firmly screwed to a carrier board and come with rugged industry-proven connectors supporting high frequency and differential signals. Only soldered components are used to withstand shock and vibration, and the design is optimized for conformal coating. The MM1 supports a 95x55mm form factor.",
+        " For evaluation and development purposes a microATX carrier board is available.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

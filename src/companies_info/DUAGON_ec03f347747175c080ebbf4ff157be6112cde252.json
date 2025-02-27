@@ -1,0 +1,16 @@
+{
+    "title": [
+        "P511 - Dual Fast Ethernet PMC - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/p511/",
+    "content": [
+        "The P511 is a 32bit/33MHz PMC with dual Ethernet functionality. The two channels can be accessed via two RJ45 connectors which are led to the front via an adapter cable from a SCSI connector. They support half duplex and full duplex operation.",
+        " The PMC offers the possibility to buffer all receive and transmit Ethernet frames either in a local or in an external data buffer. This makes it possible to provide a Worst Case Execution Time analysis which makes it particularly well suited for safety-critical applications.",
+        " Up to 6 GPIO lines can be used on the module for additional functionality.",
+        " The P511 is based on the USM concept. USM Universal Submodules make PMC modules more flexible than ever. The Ethernet functionality is realized via an IP core implemented inside its onboard FPGA. This function can be changed at any time through implementation of different IP cores. The corresponding line drivers are realized on the USM which is simply plugged on the P511. One alternative function is the combination of an Ethernet core with a fieldbus interface to build gateways.",
+        " The I/O mezzanine module is suitable for any PMC compliant host carrier board in any type of bus system, i.e. CPCI, VME or on any type of stand-alone SBC in telecommunication, industrial, medical, transportation or aerospace applications. It offers long-term availability for at least 10 years and is qualified for operation in the extended temperature range.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "title": [
+        "MH70I - Rugged Industrial PC with Intel Core i3 / i5 / i7 - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/mh70i/",
+    "content": [
+        "Modular, Built-to-Order Configuration",
+        " The MH70I is a modular application-ready industrial PC which meets the requirements of any industrial environment, e.g., control stations for industrial automation. The PC offers a multitude of configuration possibilities which are built to order resulting in a fast time-to-market. The system comes with complete software support.",
+        " The Intel Core i7-based system consists of a modular 40 HP CompactPCI system which can be wall or rack-mounted. The system can be cooled by natural convection or using an additional fan tray at the bottom of the system. Cooling is independent of the mounting position.",
+        "Redundant Power Supply",
+        " The pre-configured system offers two PSU slots to ensure reliability and redundancy. Normal operation is guaranteed if at least one external voltage is present. AC or DC power supplies can be implemented.",
+        "Large Range of Functions",
+        " Two CompactPCI peripheral slots and two CompactPCI Serial peripheral slots as well as 2 PCI or PCI Express slots can accommodate a large range of functions. If the 2 PCI or PCI Express slots are not required, two additional CompactPCI Serial peripheral slots are available.",
+        " Possible functions of the MH70I include binary and analog process I/O or motion counters as well as COMs and fieldbus functions such as CANopen, DeviceNet, Real-Time-Ethernet (EtherCAT, EtherNet/IP, Modbus, POWERLINK, PROFINET, SERCOS, Varan) and PROFIBUS (master and slave for all functions).",
+        " The system always offers 2 Gigabit Ethernet interfaces at the front of the CPU board. For extending the Ethernet functionality, there is the possibility to implement up to 8 additional standard RJ45 or fiber optics Ethernet interfaces in the Compact PCI Serial slots.",
+        " PCI Express Mini cards for wireless functions such as WLAN and UMTS can also be provided. A SATA RAID can be built using up to four CompactPCI Serial hard disk carrier boards.",
+        " The two PCI or PCI Express slots can be equipped with half-length cards for further customized extension of the system.",
+        "\nIt consists of the 40 HP basic system including backplane and mounting rails and provides:",
+        "\n- 2 slots for PSU 1 CompactPCI PlusIO slot for the CPU board",
+        "\n- 2 CompactPCI peripheral slots",
+        "\n- 2 CompactPCI Serial peripheral slots",
+        "\n- 2 PCI/PCIe slots or alternatively:",
+        "\n- 2 additional CompactPCI Serial peripheral slots",
+        "\nContact duagon Sales for more information and for your detailed configuration.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t",
+        "\nFor the module's driver contact MEN's support team.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

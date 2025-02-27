@@ -1,0 +1,20 @@
+{
+    "title": [
+        "F22P - Embedded Single Board Computer with Intel Core i3 / i5 / i7 - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/f22p/",
+    "content": [
+        "The F22P versatile 4HP/3U single-board computer is a continuation of duagon's proven range of Intel CPU boards. It is equipped with the high-performance third generation Intel Core i7 processor running at up to 3.3 GHz maximum turbo frequency with full 64-bit support. The CPU card delivers an excellent graphics performance and is designed especially for embedded systems which require high computing performance with low power consumption.",
+        " The F22P offers a 32-bit/33-MHz CompactPCI bus interface and can also be used without a bus system. 4 USB 2.0 ports, 4 PCI Express x1 links, 2 SATA 3 Gb/s and 2 SATA 6 Gb/s interfaces as well as one Gigabit Ethernet are led to the J2 rear I/O connector which is compatible with the PICMG 2.30 CompactPCI PlusIO specification.",
+        " The F22P is equipped with a state-of-the-art fast DDR3 DRAM which is soldered to the F22P to guarantee optimum shock and vibration resistance. An mSATA disk and a microSD card device which are connected via a USB interface and a SATA channel offer nearly unlimited space for user applications.",
+        " The standard I/O available at the front panel of F22P includes graphics on a VGA connector, two PCIe-driven Gigabit Ethernet as well as two USB2.0 ports. The F22P can be extended by different side cards. Additional functions include a digital video interface for flat panel connection via DVI (multimedia), a variety of different UARTs or another four USBs, SATA for hard disk connection and HD audio.",
+        " Thermal supervision of the processor and a watchdog for the operating system complete the functionality of the F22P. A TPM (Trusted Platform Module) chip is also assembled.",
+        " The F22P operates in Windows and Linux environments as well as under real-time operating systems that support Intel's multi-core architecture. The InsydeH2O EFI BIOS was specially designed for embedded system applications.",
+        " Equipped with Intel components exclusively from the Intel Embedded Line, the F22P has a guaranteed minimum availability of 7 years.",
+        " The F22P is suited for a wide range of industrial applications, e.g. for monitoring, vision and control systems as well as test and measurement. Main target markets comprise industrial automation, multimedia, traffic and transportation, aerospace, shipbuilding, medical engineering and robotics.",
+        " The F22P comes with a tailored passive heat sink within 4 HP height. The robust design of the F22P makes the board especially suited for use in rugged environments with regard to shock and vibration according to applicable DIN, EN or IEC industry standards. The F22P is also ready for coating so that it can be used in humid and dusty environments.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

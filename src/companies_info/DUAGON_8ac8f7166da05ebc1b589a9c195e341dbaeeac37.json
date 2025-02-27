@@ -1,0 +1,20 @@
+{
+    "title": [
+        "0701-0056 - CPCI to CPCI Serial Hybrid Rackmount Enclosure, 8 Slots, 3U Cards Vertical - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/0701-0056/",
+    "content": [
+        "This compact 4U rack-mount enclosure is a basic system that allows the configuration with both CompactPCI Serial and CompactPCI cards. Being a hybrid system, it offers an uncomplicated and cost-effective migration solution from parallel 3U CompactPCI to serial CompactPCI Serial via the CompactPCI PlusIO standard.",
+        " The 8-slot hybrid backplane in this configuration does not need a bridge or an active logic. The four slots on the left are designed for 32-bit CompactPCI and rear I/O on P2. The four slots onthe right are reserved for CompactPCI Serial. The CompactPCI PlusIO system slot is the fourth slot from the left. Either a standard CompactPCI 2.0 or a PICMG 2.30 CompactPCI PlusIO CPU board can be used in this slot.",
+        " This hybrid system is designed for use with the duagon system-slot SBCs F11S, F12N, F14, F15, F17, F18, F19P, F21P, F22P and F50P. Only F19P, F21P, F22P and F50P support CompactPCI Serial.",
+        " That way, the three remaining slots on the CompactPCI bus and the four CompactPCI Serial slots can be used to install additonal I/O functions.",
+        " While the CompactPCI Serial slots on the right are best suited for functions like Gigabit Ethernet, 10 Gigabit Ethernet or high end graphic with high data rate requirements, the parallel CompactPCI bus delivers enough performance for all kinds of conventional I/O like binary or analog signals.",
+        " In addition, the system offers space for mass storage devices.",
+        " A 8HP plug-in 250W power supply unit which is accessible at the back of the system is already included and wired.",
+        " The enclosure meets EMC requirements, making it a perfect choice for embedded applications in harsh environments.",
+        " Ask us for completely configured, wired and tested systems!",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

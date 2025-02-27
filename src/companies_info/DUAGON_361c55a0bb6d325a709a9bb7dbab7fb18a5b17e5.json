@@ -1,0 +1,23 @@
+{
+    "title": [
+        "CB30 - Vital Rugged COM Express Module with QorIQ P1022 - duagon"
+    ],
+    "url": "https://www.duagon.com/de/products/computing/processor-modules/details/cb30/",
+    "content": [
+        "Safe CPU System up to SIL 2",
+        " The CB30 safe CPU board is a rugged COM Express module for use in safety-related applications, e.g., for rolling-stock train control systems or industrial applications. It is based on a NXP QorIQ single-core P1013 or dual-core P1022 processor, running at up to 1 GHz and providing excellent performance per watt. It is hardware-supervised by a dedicated safe supervisor to meet EN 50129 or IEC 61508 SIL 2 level requirements. An assessment report from TÜV SÜD greatly simplifies certification for railway applications.",
+        "Functional Safety Architecture: Fail-Safe",
+        " The CB30 is a single-processor board with a fail-silent design. The functional safety architecture is based on monitoring all safe CPU subsystem environmental conditions, e.g., voltages and temperature. If safe operation of the CPU subsystem cannot be guaranteed, the safe supervisor (SUPV) removes the power of the subsystem, ensuring all external communications are stopped.",
+        " The SUPV also ensures it is only possible to exit the safe state in a controlled manner. If an overvoltage is detected the CB30 is placed in a non-recoverable disabled state and needs to be shipped to duagon for inspection before possibly returning to the field.",
+        " An onboard event logger helps to analyze errors while reducing software overhead.",
+        "Solid Connectivity and I/O",
+        " With its focus on safe design, the CB30 still offers ample I/O functionality, including two or three Gigabit Ethernet and PCI Express interfaces, two SATA channels, up to four USB 2.0 ports, UARTs and general-purpose I/O. DVI or LVDS can be implemented for graphics functions. Up to 2 GB DDR3 SDRAM with ECC support and a soldered eMMC storage device round out the CPU.",
+        "Rugged COM Design",
+        " The CB30 complies with the COM Express Basic form factor and type 6 pin-out. For applications that need reliable operation even under the harshest environmental conditions, a specially hardened version is available - the CB30C. CB30C modules are embedded in a closed aluminum frame that ensures optimum EMC protection and efficient conduction cooling. Direct air cooling is possible by placing a heat sink on the cover. The innovative mechanical design around the COM.0 electronics makes it an ultra-rugged module. With all components soldered, its small form factor and low power consumption, the board is ideal for embedded applications in severe environments. Its full EN 50155 compliance up to class TX gives it a focus on rolling-stock applications. For evaluation and development purposes a microATX carrier board, the XC15, is available.",
+        "\nThis CB30/CB30C certification package includes a user guide, a detailed hardware description, functional safety concepts, the SIL 2 certificate from TÜV SÜD, 40 hours support etc",
+        "\n\n\n\n\n",
+        "Anmeldung",
+        "\n\n\t\t\t\t\t\t\t\tPasswort vergessen?\n\t\t\t\t\t\t\t\n",
+        "\nRegistrieren\n"
+    ]
+}

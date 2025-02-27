@@ -1,0 +1,29 @@
+{
+    "title": [
+        "BC51M - Rugged Industrial Box PC with Intel Atom Processor E3900 Series - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/bc51m/",
+    "content": [
+        "For Onboard Applications ",
+        " The BC51M is a maintenance-free box computer that has been designed for use in vehicles, e.g. in trains, commercial vehicles or mobile machines for applications such as Internet-On-Board, positioning via GNSS, entertainment or predictive maintenance. An MVB option is available to support integration into the Train Communication Network (TCN).",
+        "Wireless Communication",
+        " The BC51M can take over typical on-board wireless functions, whether it is an Internet connection for passengers or locating the vehicle. Two PCI Express Mini Card slots and two micro-SIM slots provide flexibility in implementing mobile service standards up to 4G LTE or WLAN/WLAN IEEE 802.11, and derivates.",
+        "Solid Processing Performance",
+        " The BC51M is powered by an Intel Atom processor from the E3900 series running at up to 1.6 GHz. Other dual/quad core processors of the Intel Atom E3900 series can be used, giving high scalability in CPU performance. The box PC features 8 GB DDR3 SDRAM and offers an SD card slot. A slot for a SATA hard-disk/solid-state drive can be provided within the housing as an option in a special product version.",
+        "Fanless Operation for Mobile Applications",
+        " The system is designed for fanless operation at temperatures from -40 °C to +70 °C (+85 °C for up to 10 minutes), its special aluminum housing with cooling fins serves as a heat sink for the internal electronics and in this way provides conduction cooling.",
+        "Railway-Compliant PSU with Ignition Function",
+        " The BC51M comes with an integrated 30W wide-range DC/DC converter compliant with EN 50155 (nominal input voltages 24 and 36 V). The 24 V DC version is prepared for ISO 7637-2 (E-mark for automotive). 72 V DC and 110 V DC nominal input voltage is available as an option and designed for onboard rail applications. In the 24 V DC version, the power can be switched on and off using an ignition signal on the power connector, and a shutdown-delay time after switching off the ignition signal can be adjusted by software.",
+        "Flexible I/O",
+        " The BC51M supports up to two DisplayPort interfaces. A multitude of other I/O is available at the front, including two Gigabit Ethernet, one USB 2.0 and one HD audio. Two slots are available for legacy serial I/O (RS232), CAN bus, MVB or IBIS as options.",
+        "Long-Term Available and Future-Safe",
+        " Long-term availability ensures an extended product life and future-safety.",
+        "\n- 1x AC/DC power supply (230 V AC / 24 V DC)",
+        "\n- 2x DisplayPort to DVI adapter (active)",
+        "\n- 2x M12 to RJ45 Gbit Ethernet cable, X-coded",
+        "\n- 4x HF cable with U.FL plug to RP-SMA plug\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

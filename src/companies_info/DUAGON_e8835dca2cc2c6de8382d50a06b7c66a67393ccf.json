@@ -1,0 +1,18 @@
+{
+    "title": [
+        "MM2 - ESMini COM with Intel Atom E600 Series - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/mm2/",
+    "content": [
+        "The MM2 is an ultra-small Computer-On-Module of the rugged ESMini family. Together with an application-specific carrier board it forms a semi-custom solution for industrial, harsh, mobile and mission-critical environments.",
+        " The small form factor board iscontrolled by an Intel Atom processor from the E6xx series. This processor family offers high I/O flexibility as it uses the PCI Express standard for the processor-to-chipset interface. The MM2 has a total power consumption of max. 5 to 7 W, while havinga clock frequency of up to 1.6 GHz.",
+        " The MM2 accommodates up to 2 GB of directly soldered main memory. Different mass storage media are supported on the carrier board.",
+        " The MM2 offers a multitude of I/O: besides modern serial I/O like two PCI Express x1links, LVDS, SDVO, high-definition audio, SATA and USB, it also provides legacy I/O (1 CAN, 4 COM, 2 I2C).",
+        " The MM2 is completed by a board management controller for temperature and power supervision. It comes with a UEFI BIOS. The MM2 is screened for operation in a -40°C to +85°C temperature range (Tcase at the cover and frame). As all ESMini modules it is embedded in a covered frame. This ensures EMC protection and allows efficient conductive cooling. Air cooling is also possible by applying a heat sink on top of the cover. Where operating temperatures are moderate, the module may even do without the frame and cover, with a suitable low-power processor and airflow.",
+        " ESMini modules are firmly screwed to a carrier board and come with rugged industry-proven connectors supporting high frequency and differential signals. Only soldered components are used to withstand shock and vibration, and the design is optimized for conformal coating. The MM2 supports a 95x55mm form factor.",
+        " For evaluation and development purposes a microATX carrier board is available.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

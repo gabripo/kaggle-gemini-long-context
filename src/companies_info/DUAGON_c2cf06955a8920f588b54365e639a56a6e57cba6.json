@@ -1,0 +1,28 @@
+{
+    "title": [
+        "BL50S - Rugged Box PC for Transportation with AMD G-Series - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/bl50s/",
+    "content": [
+        "For CCTV and Other Storage-Intensive Applications",
+        " The BL50S is a maintenance-free fanless box computer that has been designed for embedded storage systems such as content servers or video recorders, e.g., for CCTV applications. It offers two external SATA shuttles with hot-plugging support.",
+        "Wired and Wireless Communication",
+        " At the front the rugged BL50S provides five Gigabit Ethernet interfaces. Four of these ports share one Gigabit Ethernet port from the chipset via a switch, while one port is used exclusively as Gigabit Ethernet uplink. The four ports routed over the switch support Power-over-Ethernet.",
+        " One PCI Express Mini Card slot with two SIM card slots offers the possibility to implement a wide range of wireless communication functions. This includes mobile service standards up to LTE (4G) and derivates, WLAN IEEE 802.11 and derivates as well as positioning systems GPS or GLONASS.",
+        "Fanless Operation for Mobility Applications",
+        " The BL50S is designed for fanless operation at temperatures from -40 °C to +70 °C (+85 °C for up to 10 minutes), its special aluminum housing with cooling fins serves as a heat sink for the internal electronics and in this way provides conduction cooling.",
+        " The system comes with its own integrated class S2 wide-range power supply with 24 V DC and 36 V DC nominal input voltage and a power consumption of 30 W. It complies with EN 50155 and ISO 7637-2 (E-mark for automotive). The power can be switched on and off using an ignition signal on the power connector, and a run-down time after switching off the ignition signal can be adjusted by software.",
+        "Solid Processing Performance & I/O",
+        " The BL50S is powered by an AMD Embedded G-Series APU (Accelerated Processing Unit), the T48N, running at 1.4 GHz. The G-Series combines low-power CPUs and advanced GPUs, in this case an AMD Radeon HD 6310, into a single embedded device. The use of the Embedded G-Series makes for high scalability in CPU (single/dual core) and graphics performance (various Radeon GPUs or none at all).",
+        " The box PC comes with 2 GB of DDR3 SDRAM and has SD card and mSATA slots. It supports one DisplayPort interface with a resolution of 2560 × 1600. In addition, a multitude of other I/O is available at the front, including two USB 2.0 and variable slots for legacy serial I/O (e.g. RS232) or CAN bus.",
+        " The combination of the various CPU/GPU options with the available selection of external interfaces makes for an extremely flexible system design that can quickly be tailored to a vast number of applications.",
+        "\nFor the module's driver contact MEN's support team.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n",
+        "\n- 1x AC/DC power supply (230 V AC / 24 V DC)",
+        "\n- 2x DisplayPort to DVI adapter (active)",
+        "\n- 2x M12 to RJ45 Gbit Ethernet cable, A-coded",
+        "\n- 4x HF cable with U.FL plug to RP-SMA plug\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

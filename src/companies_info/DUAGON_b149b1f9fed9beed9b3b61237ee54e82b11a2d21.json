@@ -1,0 +1,15 @@
+{
+    "title": [
+        "M50 - Synchro/Resolver Converter - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/m50/",
+    "content": [
+        "The mezzanine card M50 is a 1-channel, continuous-tracking synchro- or resolver-to-digital converter with a configurable 10 to 16-bit resolution and a tracking rate of up to 1040 rps. The M-Module has a reference signal generator with a frequency range of 50 Hz to 20 kHz. Reference output voltages can be in a range of 2 Vrms to 21 Vrms. An analog velocity output can be used to monitor the rotational speed.",
+        " The M-Module is suited for nearly all synchro/resolver sensors: the user can easily adapt the M50 by plugging passive components.",
+        " The M50 is optically isolated and supplied by an on-board DC/DC converter. Optical isolation of the digitized values significantly improves accuracy compared to common transformers.",
+        " The M50 is based on the M-Module ANSI mezzanine standard. It can be used as an I/O extension in any type of bus system, i.e. CPCI, VME or on any type of stand-alone SBC. Appropriate M-Module carrier cards in 3U, 6U and other formats are available from duagon or other manufacturers.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

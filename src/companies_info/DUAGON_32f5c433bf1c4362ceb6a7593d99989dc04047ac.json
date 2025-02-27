@@ -1,0 +1,23 @@
+{
+    "title": [
+        "F26L - Embedded Single Board Computer with Intel Atom Processor E3900 Series - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/f26l/",
+    "content": [
+        "Low-Power Intel Atom CPU",
+        " The F26L low-power CPU board is a member of the scalable family of Intel CPU boards which ensures future-safety and long-term availability. It is equipped with an Intel Atom Processor E3900 Series dual-core or quad-core System-on-a-Chip (SoC). Due to the low power architecture on the Intel Atom processor, the CPU card has a total power consumption of max. 6.5 Watts to 12 Watts, while having a clock frequency of up to 1.6 GHz. An excellent graphics performance, thermal supervision of the processor and a watchdog for the operating system top off the functionality of the F26L. Furthermore, a Trusted Platform Module is assembled for security purposes.",
+        "Designed for Extreme Temperatures",
+        " The CompactPCI PlusIO board has been designed for applications with extreme temperatures, where high reliability and long-term availability are essential requirements. This kind of application is common in the rail market, in industrial automation and in the power and energy sector, for example. To fulfill these extreme temperature requirements, the F26L has been equipped with a specially outlined heat sink, which efficiently takes away the heat from the board.",
+        "CompactPCI PlusIO (PICMG 2.30)",
+        " The F26L supports the CompactPCI PlusIO (PICMG 2.30) specification, meaning it can be used in a hybrid system for control of both CompactPCI and CompactPCI Serial peripheral boards. Compliant to the standard, four USB 2.0, four PCI Express x1 as well as two Gigabit Ethernet interfaces are accessible on the J2 rear I/O connector.",
+        "Versatile Front I/O",
+        " The standard I/O available at the front panel of the F26L includes VGA, two Gigabit Ethernet and two USB 3.2 Gen 1x1 ports. The F26L can be extended by different side cards. Additional functions include a variety of different UARTs or another four USBs, SATA for hard disk connection and HD audio.",
+        "Linux and Windows Support",
+        " The F26L operates in Windows 10 and Linux environments as well as under real-time operating systems that support Intel's multi-core architecture. The AMI UEFI BIOS was specially designed for embedded system applications.",
+        "Long-Term Availability",
+        " Long-term availability ensures an extended product life and future-safety.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

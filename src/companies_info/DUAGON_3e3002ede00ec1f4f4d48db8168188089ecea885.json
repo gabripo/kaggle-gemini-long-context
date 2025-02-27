@@ -1,0 +1,27 @@
+{
+    "title": [
+        "KT8 - d-SC Remote I/O Extension for 8 Cards - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/kt8/",
+    "content": [
+        "Safe Remote I/O for Train Control Systems",
+        " KT8 is a safe, remote I/O box inside the duagon SAFE CONTROL (d-SC) System.The modular system platform d-SC is usable for safety-critical train applications like train control, automatic train operation (ATO) and automatic train protection (ATP) up to SIL 4 (EN5012x) or SIL 3 (IEC61508).",
+        " The KT8 system consists of the head unit K100 and d-SC I/O board slots. The I/O boards are completely configurable and all system components are directly linked via Ethernet over the backplane. The head unit K100 provides the EtherCAT connections to other d-SC system boxes, the power input for the system and two hex switches. With the hex switches of the K100 the unique chassis ID within an EtherCAT network is defined.",
+        "Modular I/O Configuration",
+        " Based on modular 19\" technology, KT8 provides eight slots for safe I/O cards, which can be configured as built-to-order (BTO) options. d-SC I/O cards support the common I/O requirements requested in trains. The KT series of systems provides scalable sizes of eight slots, six slots and four slots.",
+        "Part of the duagon SAFE CONTROL System",
+        " d-SC is a modular SIL 4 certifiable family of CompactPCI-based standard products usable for every kind of safety-critical railway application - from a single function to the main control system of the train. It can be configured to control anything in the train that requires functional safety - under SIL 4, SIL 3 or SIL 2 requirements. d-SC communicates via standard EtherCAT real-time Ethernet and interfaces to any type of consist fieldbus network like MVB, CANopen, Profinet etc. This makes it easy to integrate into a TCN network as well as into regionally different Train Control Systems like ETCS, CTCS, ATCS or Klub-U. The high level of flexibility of d-SC results in significant cost and time savings during computerization of the train.",
+        "Compact and Cost-Saving Remote I/O",
+        " Being modular and SIL 4 certifiable, the KT series reduces the certification risk and efforts. This makes both your system costs and project schedule predictable. All KT systems have a dedicated EtherCAT component, the I/O head, for interconnection of the boxes and power supply. This in turn reduces cabling. I/O functions can still be located close to the remote actors and sensors, with fast data transmission within the d-SC system. The compact format with a maximum width of 40 HP and a reduced depth compared to standard 3U systems allows installation even where space is very restricted, simplifying retrofitting of older trains.",
+        "Certification and Standards Compliance Included",
+        " Safety-related d-SC components come with certification packages and complete support for the safe operating system QNX, including safe protocols, I/O framework etc. All d-SC components that are safety-relevant are developed according to EN 50128 and EN 50129 standards and comply with all environmental requirements of EN 50155 for rolling stock: temperature, shock, vibration, humidity, dust, isolation, PSU hold-up times, EMC regulations etc.",
+        "Mounting and Cooling Options",
+        " The system can be wall or rack-mounted, also on a DIN rail, and is air cooled.",
+        "\n- 1 slot for I/O head",
+        "\n- 8 d-SC I/O board slots",
+        "\nThe barebone configuration comprises the standard I/O head component including the EtherCAT connection and PSU. I/O boards are completely configurable. The Technical Data list all components that can be implemented in the system. Choose the functionality you need and contact duagon's sales team to verify which board combinations are feasible.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

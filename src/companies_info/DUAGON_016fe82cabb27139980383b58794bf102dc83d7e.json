@@ -1,0 +1,20 @@
+{
+    "title": [
+        "DC1 - Rugged 15\" Panel PC - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/dc1/",
+    "content": [
+        "The display computer DC1 is a rugged, fanless and maintenance-free panel PC for harsh, mobile and mission-critical applications. Its robust stainless enclosure is protected against violent impacts and designed for, e.g.,  infotainment purposes in trains,public buses or airplanes.",
+        "The DC1 is controlled by the Intel Atom Z530 running at 1.6 GHz. It comes with 1 GB of DDR2 SDRAM and 4 GB of USB-driven Flash disk. The standard interfaces comprise 2 Fast Ethernet and 2 USB ports as well as four binary inputs (with a fifth used for key input functionality). The two Ethernet interfaces have switch functionality to provide Ethernet connection also to subsequent intelligent displays. A temperature sensor monitors and controls the display.",
+        "All I/O signals are concentrated at the bottom side of the DC1. The whole unit can be directly mounted to a VESA mount or side-by-side with a second display.",
+        "The standard version of the DC1 complies with the EN 50155, class Tx railway standard. It is thus for example equipped with an internal 24 VDC nom. wide-range power supply and able to operate in a -40 to +70°C environment (+85°C for 10 minutes; -30 to +70°C for the display panel with automatic switch-off at excess temperatures).",
+        "The control electronics are directly attached to the back of the screen, supporting 19\", 17\", 15\", 12\" and optionally even smaller display and housing sizes. The computer unit itself builds on the Intel ultra-mobile low-power processor family starting with the Intel Atom Z530 at 1.6 GHz or Z510 at 1.1 GHz. ",
+        "On request a serial interface can be added and the USB interfaces can be individually configured up to a maximum of 5 ports (alternatively serial interfaces), one of which a client port. A connection for a secondary display (onboard via LVDS or external via DVI-D) can be made accessible, with then two displays able to provide different and equal content at the same time. Additional I/O may optionally comprise HD audio or field bus functions like IBIS. ",
+        "A PCI Express Mini Card slot combined with an external antenna can be used to incorporate wireless functions like Wi-Fi, GSM/GPRS, etc. ",
+        "The concept also allows to use different input voltage ranges of the PSUs, for example 24 VDC nom. (28.8to 67.2 V), 72 VDC nom. (43.2 to 100.8 V) or 110 VDC nom. (66 to 154 V) for railway applications. With a typical power consumption of only 20 Watts for the total system the design is always realized without fans, using conductive cooling between the electronics and the display to spread the dissipated heat to the outside of the housing. ",
+        "All electronic components are soldered to withstand shock and vibration and prepared for conformal coating.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

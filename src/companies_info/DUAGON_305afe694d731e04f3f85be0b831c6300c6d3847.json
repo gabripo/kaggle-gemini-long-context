@@ -1,0 +1,14 @@
+{
+    "title": [
+        "SA24M - IBIS Master - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/sa24m/",
+    "content": [
+        "The SA24M provides one IBIS master interface with an external 24V supply. While a fieldbus master controls the data traffic, the data transfer between master and slave participants is initiated only by the master. ",
+        " IBIS is a fieldbus used in public transport vehicles. It is based on a UART structure and can therefore be combined with MEN boards that support any kind of UART interfaces together with SA-Adapter slots.",
+        " SA-Adapters are small universal boards providing the physics for legacy serial I/O, fieldbus interfaces and other small I/O functions. One serial line is provided per adapter, which can be plugged directly to the CPU board as a mezzanine. Alternatively, the adapter can be connected to the front panel via ribbon cable. The SA concept allows to add additional I/O interfaces to many of MEN's CPU boards and box PCs, enhancing flexibility with regard to the line transceivers and isolation requirements. Whether a specific SA-Adapter (or a mix of different SA-Adapters) fits on a specific CPU board is determined by a combination of mechanical, performance, FPGA and operating system criteria and needs to be verified for every board configuration requested.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

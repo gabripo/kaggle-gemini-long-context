@@ -1,0 +1,18 @@
+{
+    "title": [
+        "PI2X - CAN Bus Module - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/pi2x/#doc",
+    "content": [
+        "High-Speed CAN Interfaces",
+        " The PI2X is a CAN bus module designed for use in industrial, railway and automotive applications. The card has two isolated CAN FD high-speed channels according to ISO 11898-1, with a transition rate of up to 12 Mbit/s. The CAN interfaces are available either on board to wire or board to board connectors.",
+        "Various Installation Possibilities",
+        " The PCIe Mini Card interface allows the installation of the module in standard PCIe Mini Card slots, as available in, e.g., Box PCs or CPCI systems. The PI2X is a few mm larger than the PCI Express Full-Mini form factor in its width.",
+        " An adapter cable with 9-pin D-Sub connector enables the use of the module in, e.g., a Box PC, where the interface can be mounted in a front-panel cutout prepared for CAN.",
+        "Compliance and Long-Term Availability",
+        " The maintenance-free module is compliant with rolling stock, road vehicle and information technology standards, making it usable in various CAN communication applications. The PI2X is designed for fanless operation at temperatures ranging from -40 °C to +85 °C. Its design with all components soldered makes the module reliable and robust. The long-term availability of the device minimizes lifecyle management.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

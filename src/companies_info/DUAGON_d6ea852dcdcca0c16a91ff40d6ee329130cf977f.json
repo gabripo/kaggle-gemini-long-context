@@ -1,0 +1,19 @@
+{
+    "title": [
+        "XM2 - ESMexpress COM with Intel Core 2 Duo - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/xm2/",
+    "content": [
+        "The XM2 is a Computer-On-Module which together with an application-specific carrier board forms a semi-custom solution for industrial, harsh, mobile and mission-critical environments.",
+        " The XM2 is controlled by a Intel Core 2 Duo CPU with a clock frequency of up to 2.26 GHz and a total power consumption of up to 40W.",
+        " The XM2 can accommodate 4 GB of DDR3 DRAM memory and supports other memory like USB Flash on the carrier board.",
+        " The GS45 graphics controller supports x16 PCI Express Graphics or up to two SDVO interfaces, or one LVDS port.",
+        " In addition, four x1 or one x4 PCI Express links are supported by the XM2. Other modern serial interfaces are 2 Gigabit Ethernet channels, 8 USB ports, 3 SATA ports, and one HD audio port. These interfaces are all routedfrom the XM2 for availability on any ESMexpress carrier board.",
+        " The XM2 is completed by a board management controller for temperature and power supervision. It comes with an InsydeH2O EFI BIOS configurable for the final application.",
+        " The XM2 is screenedfor operation from 0°C to +85°C (Tcase). As all ESMexpress modules it is embedded in a covered frame. This ensures EMC protection and allows efficient conductive cooling. Air cooling is alsopossible by applying a heat sink on top of the cover. With a low power processor the module may even be operated in an extended temperature range. ESMexpress modules are firmly screwed to a carrier board and come with rugged industry-proven connectors supporting high frequency and differential signals. Only soldered components are used to withstand shock and vibration, and the design is optimized for conformal coating. All ESMexpress modules support a single 95x125mm form factor.",
+        " For evaluation and development purposes an ATX carrier board is available. The ESMexpress module can be evaluated on a COM Express carrier board via an adapter from ESMexpress to COM Express.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

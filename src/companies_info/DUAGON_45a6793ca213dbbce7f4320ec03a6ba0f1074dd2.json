@@ -1,0 +1,15 @@
+{
+    "title": [
+        "F600 - Side Card for SATA/Legacy I/O - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/f600/",
+    "content": [
+        "The F600 is a 4HP legacy I/O extension card for 3U Intel based CompactPCI single-board computers. It can be used in combination with the F14 and compatible CPU boards.",
+        " Modern Intel based boards increasingly support USB interfaces as an exclusive universal connection of devices such as keyboard, mouse, CD-ROM, floppy etc. Especially in industrial applications however many existing systems still use COM interfaces.",
+        " The F600 provides SA-Adapter slots for up to four additional COMs, two at the front panel and two on board. Since SA-Adapters provide the physical layers, the F600 can be configured flexibly with a combination of RS232, RS422 or RS485 interfaces, alternatively isolated or not isolated. In addition an onboard 2.5\" SATA hard-disk slot can be used on the standard version of the F600, which comes with two COM interfaces.",
+        " The F600 is directly plugged to the right side of the respective single-board computer. A robust connector makes for high mechanical stability. It is delivered with an 8HP front panel, replacing the 4HP front panel of a 3U single-board computer and thus resulting in a solid one-piece front panel.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

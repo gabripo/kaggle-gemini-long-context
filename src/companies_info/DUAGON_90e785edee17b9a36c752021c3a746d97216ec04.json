@@ -1,0 +1,32 @@
+{
+    "title": [
+        "K2 - 16 Safe Digital Inputs for d-SC - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/k2/",
+    "content": [
+        "Digital Inputs for d-SC",
+        "The K2 is a safe digital input card for use in the duagon SAFE CONTROL (d-SC) System. The d-SC platform performs safe train control functions in rolling stock applications like Automated Train Protection (ATP) or CBTC (Communications Based Train Control). It usually consists of a controller system, e.g., MH50C, and safe remote I/O boxes, e.g., KT8. The K2 can be plugged into any of these systems, with one card providing 16 safe digital inputs.",
+        "Safe Communication (EtherCAT and FSoE)",
+        "d-SC I/O boards are EtherCAT slave devices, connected to the host via a backplane EBUS link. On top of EtherCAT, a safety layer called FSoE (Fail Safe Over EtherCAT) provides safe real-time Ethernet communication between the host system and the I/O board.",
+        "Made for Rail I/O Functions",
+        "The K2 inputs are voltage sensitive and are typically connected to digital outputs of other systems or to relay contacts. The I/O card provides functional safety: it enters the safe state if it detects an error. Front I/O is connected via a 24-pin PCB plug for fast installation thanks to reduced wiring.",
+        "Safety-Certified",
+        "The K2 is certified to CENELEC standards EN 50128 and EN 50129. The board is developed in a SIL 4 process according to EN 50128 and EN 50129. The systematic capability of the K2 is SIL 3 according to IEC 61508. However, to control a SIL 4 function according to EN 50128 and EN 50129 or SIL 3 function according to IEC 61508, the system design must provide a second K2 input board or another separated way to evaluate the status of the external signal. All d-SC I/O components come with dedicated certification packages from T&UumlV S&UumlD, reducing the integrator's certification effort and risk, and resulting in lower integration costs.",
+        "EN 50155 Rolling Stock Compliance",
+        "Being usable in all types of different trains optimizes the card's interoperability. It supports operating temperatures of -40 &degC to +85 &degC according to EN 50155. Standard boards include conformal coating. With full EN 50155 compliance and long-term availability on the market of 10 years minimum from the start of series production, the K2 is a rail-ready I/O component. If required, the K2 can also comply to Railways (Wayside) standard EN 50121-4 and Industrial standard EN 61000-4-5 by connecting an external EMC suppressor circuitry.",
+        "Safe Software Concept",
+        "All d-SC components are supported by certified QNX BSP and driver software. Application software accesses the K2 via the PACY software framework (Process Data Framework for Cyclic Applications). Its API allows the application to control and monitor all features of the K2.",
+        "\nThe product consists of the 40 HP basic system including backplane and mounting rails and provides:",
+        "\n- 1 slot for PSU",
+        "\n- 1 CompactPCI PlusIO slot for the CPU board",
+        "\n- 6 CompactPCI peripheral slots",
+        "\n- 1 CompactPCI peripheral slot reserved for F305",
+        "\nThe barebone configuration comprises a number of standard, non-configurable components such as the PSU and CPU board. I/O boards are completely configurable. The Technical Data list all components that can be implemented in the system. Choose the functionality you need and contact duagon's sales team to verify which board combinations are feasible.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDetails\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n",
+        "\n- 1 slot for I/O head",
+        "\n- 8 d-SC I/O board slots",
+        "\nThe barebone configuration comprises the standard I/O head component including the EtherCAT connection and PSU. I/O boards are completely configurable. The Technical Data list all components that can be implemented in the system. Choose the functionality you need and contact duagon's sales team to verify which board combinations are feasible.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDetails\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "title": [
+        "G214 - Multi-Display Controller Board with AMD Radeon E6760 GPU - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/g214/",
+    "content": [
+        "High Resolution and Long-Term Availability",
+        " The G214 is a 4HP/3U CompactPCI Serial peripheral board based on the AMD Radeon E6760 GPU. The board is an easy way to provide a CompactPCI Serial system with high-end graphics features that are not offered by regular CPU chipsets. The supported high resolutions and multi-display output make the board ideal to meet the visual requirements of central control rooms, video surveillance systems or digital signage applications. All board components are carefully selected to offer long-term availability for at least 7 years.",
+        "Multiple Display Outputs",
+        " AMD Eyefinity multi-display technology supports up to six display outputs: Four DisplayPort 1.2 interfaces with a maximum resolution of 4096x2560 at 60 Hz and 24 bpp are available at the board's front panel, another two DisplayPort 1.1a interfaces with a maximum resolution of 2560x1600 are optional (widening the front panel to 8HP). Alternatively, DisplayPort 1.2 supports daisy chaining of compatible displays. If the connected panels support the same resolutions, they can be addressed as a \"single large surface\", effectively functioning as one monitor with a very large resolution.",
+        "Advanced Technology",
+        " The advanced, programmable 3D graphics engine of the AMD Radeon E6760 supports Microsoft DirectX 11 and comes with a third generation unified video decoder,enabling dual HD decode of H.264, VC-1, MPEG4 and MPEG2 compressed video streams. The GPU is also an ideal solution for embedded applications requiring compute intensive general purpose graphics processing unit (GPGPU) capabilities. With 480 processing elements, it delivers up to 576 GFLOPs peak single precision floating point performance for ultrasound, radar and video imaging applications. The GPGPU capabilities are enabled by AMD Accelerated Processing (APP) technology, the industry standard OpenCL programming language and the AMD APP Software Development Kit (SDK).",
+        "Connectivity Options",
+        " Using passive DisplayPort adapters, up to two HDMI or DVI-D monitors can be connected. Single-link DVI-D and HDMI 1.4a are supported. With active adapters, all six DisplayPort interfaces can be used. Active adapters are also available for dual-link DVI-D and VGA.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": [
+        "SA15 - 8-Channel Binary I/O Adapter - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/sa15/",
+    "content": [
+        "The SA15 provides five binary inputs, five binary outputs and three binary bidirectional inputs/outputs. The supported logic level is 3.3 V up to 24 V. The output current for each channel is 500 mA (sinking), but the maximum overall current is 2.5 A.",
+        " SA-Adapters are small universal boards providing the physics for legacy serial I/O, fieldbus interfaces and other small I/O functions. One serial line is provided per adapter, which can be plugged directly to the CPU board as a mezzanine. Alternatively, theadapter can be connected to the front panel via ribbon cable. The SA concept allows to add additional I/O interfaces to many of duagon's CPU boards, enhancing flexibility with regard to the line transceivers and isolation requirements. SA-Adapters can be used on the majority of duagon's SBCs. Whether a specific SA-Adapter (or a mix of different SA-Adapters) fits on a specific CPU board is determined by a combination of mechanical, performance, FPGA and operating system criteria and needs to be verified for every board configuration requested.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "title": [
+        "F19P - Intel Core 2 Duo CPU Board - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/f19p/",
+    "content": [
+        "The F19P versatile 4HP/3U single-board computer is a continuation of duagon's proven range of Intel CPU boards. It is equipped with the Intel Core 2 Duo processor SP9300 running at 2.26 GHz and offering multi-core processor architecture from Intel with full64-bit support. The CPU card delivers an excellent graphics performance and is designed especially for embedded systems which require high computing performance with low power consumption.",
+        " The F19P offers a 32-bit/33-MHz CompactPCI bus interface and canalso be used without a bus system. It offers 4 USB 2.0 and 4 fast (3Gb/s) SATA interfaces as well as 4 PCI Express x1 links and one Gigabit Ethernet on the J2 rear I/O connector which is compatible with the PICMG 2.30 CompactPCI PlusIO specification.",
+        " A total of seven PCI Express lanes for high-speed communication (such as Gigabit Ethernet) are supported on the F19P. 3 x1 PCIe links are used for the three onboard Ethernet interfaces. 4 x1 PCIe links are available via rear I/O or on a specific side card.",
+        " The F19P is equipped with a fast DDR3 DRAM which is soldered to the F19P to guarantee optimum shock and vibration resistance. A robust CompactFlash and microSD card device which are connected via a USB interface offer nearly unlimited space for user applications.",
+        " The standard I/O available at the front panel of F19P includes graphics on a VGA connector, two PCIe-driven Gigabit Ethernet as well as two USB 2.0 ports.",
+        " The F19P can be extended by different side cards. Additional functions include two digital video interfaces for flat panel connection via DVI (multimedia), a variety of different UARTs or another four USBs, SATA for hard disk connection and HD audio.",
+        " Thermal supervision of the processor and a watchdog for the operating system complete the functionality of the F19P.",
+        " The F19P operates in Windows and Linux environments as well as under real-time operating systems that support Intel's multi-core architecture. The InsydeH2O EFI BIOS was specially designed for embedded system applications.",
+        " Equipped with Intel components exclusively from the Intel Embedded Line, the F19P has a guaranteed minimum standard availability of 7 years.",
+        " The F19P is suited for a wide range of industrial applications, e.g. for monitoring, vision and control systems as well as test and measurement.",
+        " The F19P comes with a tailored passive heat sink within 4 HP height. The robust design of the F19P make the board especially suited for use in rugged environments with regard to shock and vibration according to applicable DIN, EN or IEC industry standards. The F19P is also ready for coating so that it can be used in humid and dusty environments.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

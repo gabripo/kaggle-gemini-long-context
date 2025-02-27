@@ -1,0 +1,22 @@
+{
+    "title": [
+        "D015M - PC/30 MVB Interface - duagon"
+    ],
+    "url": "https://www.duagon.com/products/network/interfaces/details/d015m/",
+    "content": [
+        "The D015M is a multi-purpose MVB interface on a 40 x 85 mm size footprint (PC/30).",
+        " All features of the MVB architecture are available: Process Data, Message Data, Bus Administrator as an option and physical layer EMD or ESD+.",
+        " The D015M is available in two configurations:",
+        " MDFULL: passive MVB interface with a duagon MVB controller",
+        " SERVER: active MVB interface including the Message Data Real Time Protocol stack MD RTP. This approach minimizes the CPU requirements of the host system, because the major part of the communication software is running on the duagon interface",
+        " A handy starter-kit is available for evaluation and host-application-software development.",
+        " The D015M complies with the TCN standard IEC 61375. It is designed for the harsh traction environment and conforms to the EN 50121, EN 50155 and EN 61373 standards, e.g. by:",
+        " -40 to +85°C operating temperature",
+        " Coating against humidity",
+        " Enhanced EMI and vibration robustness",
+        " The D015M is not recommended for new designs",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "title": [
+        "PX1 - GLONASS & GPS Interface - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/px1/",
+    "content": [
+        "The PX1 is a PCI Express Mini Card providing a GNSS receiver with GLONASS and GPS functionality. It supports active or passive antennas, which can be connected to an U.FL connector. The received antenna signals are sent to the host via USB.",
+        "GLONASS isthe Russian alternative to GPS and has comparable coverage and precision. The PX1 is prepared to support the European Union's global navigation satellite system Galileo and the Chinese navigation satellite system Compass.",
+        "The GNSS module provides a gyroscope sensor for dead reckoning functions, which enable accurate positioning. Various Satellite-Based Augmentation Systems (SBAS) are also supported. The PX1 provides communication information compliant to the NMEA 0183 protocol.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

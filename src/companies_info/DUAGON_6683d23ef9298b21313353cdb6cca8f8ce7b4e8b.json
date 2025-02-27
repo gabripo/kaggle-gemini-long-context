@@ -1,0 +1,22 @@
+{
+    "title": [
+        "A20 - 2eSST Intel Core 2 Duo CPU Board - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/a20/",
+    "content": [
+        "The A20 6U single-slot VMEbus SBC supports a variety of Intel Core Duo and Core 2 Duo processors from the high-end 1.5 GHz L7400 to the low-voltage dual-core versions down to a selection of single-core Celeron M types. It is designed especially for systems which require high computing and graphics performance and low power consumption in a typical Windows environment, under VxWorks or Linux.",
+        "Using the TSI148 bridge controller the CPU card provides 2eSST performance levels while maintaining backwards compatibility with older standards such as VME64 and VME32.",
+        "The standard I/O available at the front panel of the A20 includes graphics on a VGA connector, one Gigabit Ethernet and one USB 2.0 interface. As an option a COM interface on an RJ45 connector can be provided instead of the USB interface. ",
+        "As rear I/O the A20 provides seven USB interfaces, one SATA port and PMC rear I/O.",
+        "A second SATA interface for connection of an onboard hard disk or for building up RAID systems is provided on-board instead of one PMC or XMC. One PATA interface supports the onboard CompactFlash slot.",
+        "The working memory comprises up to 4 GB DDR2 DRAM which is soldered to guarantee optimum shock and vibration resistance.",
+        "A total of six PCI Express lanes for high-speed communication (such as Gb Ethernet) are supported on the A20. One x1 PCIe link is used for the onboard Ethernet interface, three x1 links support the XMC slots, one x1 link supports the PMC slots via a PCI Express to PCI-X bridge and one x1 link is used for connection of the VMEbus bridge. The PMC slots support 64bit/66MHz (PCI-X).",
+        "Supervision of the processor and board temperature as well as a watchdog for monitoring the operating system complete the functionality of the SBC.",
+        "The A20 comes with a tailored passive heat sink within 4 HP height. However, forced air cooling is always required inside the system.",
+        "Equipped with Intel components exclusively from the Intel Embedded Line, the A20 has a guaranteed minimum standard availability of 5 years.",
+        "Its robust design make the A20 especially suited for rugged environments with regard to extended operating temperature, shock and vibration according to applicable DIN, EN or IEC industry standards. It is also ready for coating for use in humid and dusty environments. The wide range of industrial applications include for example monitoring, vision and control systems as well as test and measurement. Main target markets comprise industrial automation, security and infotainment, traffic and transportation, shipbuilding, medical engineering and robotics.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "title": [
+        "ME3 - RS232, RS422/485 Serial Communication Module for Embedded Computer System - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/me3/",
+    "content": [
+        "Extension for Various Applications",
+        " The ME3 is a modular extension for embedded applications in transportation, e.g., in trains or wayside. The module adds serial communication interfaces to the system CPU. Main applications of the module include predictive maintenance, IoT gateway, diagnostics server, smart vehicle, passenger information and ticketing systems.",
+        "Serial Communication",
+        " The ME3 comes with three COM front connectors supporting four UART interfaces. The standard product features one RS232 port with full hardware handshaking, one combined RS232 and RS422/RS485 port and either one RS422/RS485 port or one IBIS port (Master or Slave).",
+        "Modular System for Easy Configuration",
+        " Due to duagon's modular concept, the ME3 offers flexibility in built-to-order configurations. Via its extension connectors, the box can be easily combined with pre-fabricated CPU modules or other extension modules, for example a PSU or a wireless communication module, providing additional features and short delivery times.",
+        " In the modular system, the data transfer between the modules as well as the power distribution between the individual components takes place via the extension connectors standardized by duagon.",
+        "Flexible System Installation",
+        " Various mounting options facilitate the integration of the box into an existing environment. The standard 35 mm DIN rail mounting offers space saving mounting of all system modules on a single rail. Wall mounting and mounting in a 19\" rack using adaption brackets are an option.",
+        " The aluminum housing with cooling fins allows fanless operation. ME3 has no moving parts, making it maintenance free.",
+        "Rolling-Stock Qualified and Long-Term Availability",
+        " The serial communication module is qualified for rolling stock and wayside applications. Long-term availability ensures an extended product life and future-safety.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": [
+        "SA1 - RS232 Interface Adapter - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/sa1/",
+    "content": [
+        "The SA1 is a 1-channel RS232 interface adapter without optical isolation.",
+        " SA-Adapters are small universal boards providing the physics for legacy serial I/O, fieldbus interfaces and other small I/O functions. One serial line is provided per adapter, which can be plugged directly to the CPU board as a mezzanine. Alternatively, the adapter can be connected to the front panel via ribbon cable. The SA concept allows to add additional I/O interfaces to many of duagon's CPU boards, enhancing flexibility with regard to the line transceivers and isolation requirements. Whether a specific SA-Adapter (or a mix of different SA-Adapters) fits on a specific CPU board is determined by a combination of mechanical, performance, FPGA and operating system criteria and needsto be verified for every board configuration requested.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

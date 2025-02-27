@@ -1,0 +1,23 @@
+{
+    "title": [
+        "F23P - Embedded Single Board Computer with Intel Core i3 / i5 / i7 - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/f23p/",
+    "content": [
+        "High Computing and Graphics Performance",
+        " The F23P versatile 3U 4HP single-board computer is a member of the scalable family of Intel CPU boards which ensures future-safety and long-term availability of a system.",
+        " The F23P can be equipped with the whole range of Intel's fourth generation Core i7, Core i5, Core i3 and Celeron processors offering up to 3.4 GHz maximum turbo frequency and full 64-bit support, Turbo Boost, Hyper-Threading, Active Management Technology and Virtualization Technology.",
+        " An excellent graphics performance, thermal supervision of the processor and a watchdog for the operating system top off the functionality of the F23P.",
+        " A Trusted Platform Module is assembled for platform integrity.",
+        "Perfect for Embedded and Harsh Environments",
+        " The F23P operates in Windows and Linux environments as well as under real-time operating systems that support Intel's multi-core architecture. The InsydeH2O EFI BIOS was specially designed for embedded system applications.",
+        " It comes with a tailored passive heat sink. The robust design of the F23P - all components including the DDR3 DRAM are soldered - makes the board especially suited for use in rugged environments with regard to shock and vibration according to applicable DIN, EN or IEC industry standards. The F23P is also ready for coating for use in humid and dusty environments. Using a special frame, the F23P can quickly be adapted to conduction-cooled systems.",
+        "CompactPCI PlusIO (PICMG 2.30)",
+        " The F23P supports the CompactPCI PlusIO (PICMG 2.30) specification, meaning it can be used in a hybrid system for control of both CompactPCI and CompactPCI Serial peripheral boards. Compliant to the standard, 4 USB 2.0, 4 PCI Express x1, 4 SATA 6 Gb/s interfaces as well as one Gigabit Ethernet are accessible on the J2 rear I/O connector.",
+        "Versatile Front I/O",
+        " The standard I/O available at the front panel of F23P includes VGA, two Gigabit Ethernet and two USB 2.0 ports. The F23P can be extended by different side cards. Additional functions include a variety of different UARTs or another four USBs, SATA for hard disk connection and HD audio.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

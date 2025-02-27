@@ -1,0 +1,24 @@
+{
+    "title": [
+        "G25A - Embedded Single Board Computer with Intel Xeon D - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/g25a/",
+    "content": [
+        "High Performance for Virtualization",
+        " The G25A is a high-performance multicore CPU platform based on Intel's Xeon D-1500 System-on-a-Chip (SoC). Paired with I/O cards, the G25A can be ideally used for transferring data from and to storage media, the Internet via LTE, wireless, copper or optical Ethernet. Its up to 16 processor cores and built in Intel® VT-d and VT-x support make the board ideally suited for virtualization applications.",
+        " The G25A offers high data bandwidth on both the front and the rear I/O interfaces. Two 10 Gigabit Ethernet interfaces are available on RJ45 or M12 connectors at the front, for example.",
+        " USB 3.2 Gen 1x1, SATA revision 3.x, PCI Express 3.0 and Gigabit Ethernet interfaces on front and rear complement the I/O possibilities of the board.",
+        "Ruggedized Memory and Mass Storage",
+        " The memory configuration of the G25A includes fast DDR4 DRAM with ECC which is soldered to the board to guarantee optimum shock and vibration resistance. A microSD card device offers space for user applications or as a local boot medium.",
+        "System Security and Board Management",
+        " For system security, a Trusted Platform Module is assembled on the board. A board management controller provides thermal supervision of the processor and a watchdog for the operating system.",
+        "Perfect for Embedded and Harsh Environments",
+        " The G25A operates in Windows and Linux environments as well as under real-time operating systems that support Intel's multi-core architecture.",
+        " The G25A comes with a tailored heat sink within 4 HP height. All components are soldered for protection against shock and vibration according to applicable DIN, EN or IEC industry standards. The board is also ready for coating so that it can be used in humid and dusty environments. It is available until 2023.",
+        "G229 I/O Extension Board",
+        " The G229 offers one M.2 slot, three USB 3.2 Gen 1x1 interfaces, one RS232 interface, one RS422/RS485 interface, one VGA via PCI Express Mini card and up to three flexible slots for two additional RS232 or RS422/RS485 interfaces. It is combined with the G25A to form a space-saving solution with a bigger heat sink.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

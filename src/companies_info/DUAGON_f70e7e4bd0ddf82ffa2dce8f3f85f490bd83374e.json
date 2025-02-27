@@ -1,0 +1,19 @@
+{
+    "title": [
+        "CC10 - Rugged COM Express Module with ARM i.MX6 - duagon"
+    ],
+    "url": "https://www.duagon.com/products/details/cc10/",
+    "content": [
+        "Scalable Processor Performance",
+        " The CC10 is an Ultra-Rugged COM Express module built around the NXP (formerly Freescale) ARM i.MX 6 series of processors with a Cortex-A9 architecture. Supporting different types of the i.MX 6Solo, 6DualLite, 6Dual and 6Quad families, the computer-on-module is widely scalable, e.g., to processing or graphics requirements. Where less performance is needed, you can optimize costs by choosing a single- or dual-core processor instead of a quad core.",
+        "Perfect for Harsh Environments ",
+        " For applications that need reliable operation even under the harshest environmental conditions, a specially hardened version is available - the CC10C. CC10C modules are embedded in a closed aluminum frame that ensures optimum EMC protection and efficient conduction cooling and supports an extended operating temperature range of -40 °C to +85 °C. Direct air cooling is possible by placing a heat sink on the cover. The innovative mechanical design around the COM.0 electronics makes it an ultra-rugged module. With the mechanics for conduction cooling, the module's size extends to 105 x 105 mm. The CC10 is based on the \"Compact\", 95 x 95 mm form factor and Type 6 connector pin-out. The exclusive use of soldered components ensures that the COM withstands shock and vibration. The design is optimized for conformal coating. Adding to its rugged design, the computer-on-module's range of supported functions leave almost nothing to wish for. With a maximum of 4 GB DDR3 RAM and an onboard eMMC device, the CC10 covers all basic memory needs. 3-Gbit SATA is provided for external mass storage.",
+        "I/O Flexibility ",
+        " One of the biggest strengths of the CC10 lies in its I/O flexibility. The i.MX 6 provides an abundance of onchip controllers and interfaces, including Gigabit Ethernet, USB 2.0 (also with OTG/client support) and PCI Express. Different video outputs like LVDS and HDMI/DVI, audio and an optional camera interface make the card fit for multimedia applications. Other serial ports provide UARTs or CAN bus. Where the processor's standard functions are not a perfect match, an onboard FPGA opens up 140 signal pins for user I/O. As IP cores are easy to integrate, the CC10 becomes a semi-custom solution with the suitable functionality even for more specialized applications. The resulting I/O functionality in the ordered version depends on the customer's requirements and will always be a tailored combination of i.MX 6 and FPGA-based I/O, without the need for a completely new design. For evaluation and development purposes a microATX carrier board, the XC15, is available.",
+        "\nEuropean Dual-Use Regulation 2021/821: 5A002a3",
+        "\nUltra-Rugged COM Express \"Compact\", type 6, Freescale i.MX6Q, 1 GHz, 2 GB RAM, 4 GB eMMC, 6 USB, 1 Gb Ethernet, 1 Fast Ethernet, PCIe 1.1, with FPGA,  -40 °C to +85 °C Tcase with qualified components; with conduction cooling frame\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

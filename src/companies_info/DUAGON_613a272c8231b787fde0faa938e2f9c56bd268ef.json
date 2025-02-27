@@ -1,0 +1,23 @@
+{
+    "title": [
+        "K7 - 8 Safe Digital Outputs, Low-Side Switching for d-SC - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/k7/",
+    "content": [
+        "Digital Outputs for d-SC",
+        " The K7 is a safe digital output card for use in the duagon SAFE CONTROL (d-SC) System. The d-SC platform performs safe train control functions in rolling stock applications like Automated Train Protection (ATP) or CBTC (Communications Based Train Control). It usually consists of a controller system e.g. MH50C and safe remote I/O boxes e.g. KT8. The K7 can be plugged into any of these systems with one card providing 8 safe digital outputs with read-back and testing capabilities.",
+        "Safe Communication (EtherCAT and FSoE)",
+        " d-SC I/O boards are EtherCAT slave devices connected to the host via a backplane \"EBUS\" link. On top of EtherCAT a safety layer called FSoE (Fail Safe Over EtherCAT) provides safe real-time Ethernet communication between the host system and the I/O board.",
+        "Made for Rail I/O Functions",
+        " The K7 can switch voltages from 24 V to 110 V nominal as specified by EN 50155. Typical loads are relay coils digital inputs of other systems or LED indicators. The outputs are low-side switching i.e. the load has to be connected to the high side. The I/O card provides functional safety: it enters the safe state if it detects an error. Front I/O is connected via a 24-pin PCB plug for fast installation thanks to reduced wiring.",
+        "Safety-Certified",
+        " The K7 is certified to CENELEC standards EN 50128 and EN 50129. The board is developed in a SIL 4 process according to EN 50128 and EN 50129. The systematic capability of the K7 is SIL 3 according to IEC 61508. However to control a SIL 4 function according to EN 50128 and EN 50129 or SIL 3 function according to IEC 61508 the system design must provide a second cut-off path to put the load into a safe state. All d-SC I/O components come with dedicated certification packages from TÜV SÜD reducing the integrator's certification effort and risk and resulting in lower integration costs.",
+        "EN 50155 Rolling Stock Compliance",
+        " Being usable in all types of different trains optimizes the card's interoperability. It supports operating temperatures of -40 °C to +85 °C according to EN 50155. Standard boards include conformal coating. With full EN 50155 compliance and a long-term availability on the market of 10 years minimum from the start of series production the K7 is a rail-ready component. If required the K7 can also comply to Railways (Wayside) standard EN 50121-4 and Industrial standard EN 61000-4-5 by connecting an external EMC suppressor circuitry.",
+        "Safe Software Concept",
+        " All d-SC components are supported by certified QNX BSP and driver software. Application software accesses the K7 via the PACY software framework (Process Data Framework for Cyclic Applications). Its API allows the application to control and monitor all features of the K7.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

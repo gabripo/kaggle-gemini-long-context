@@ -1,0 +1,19 @@
+{
+    "title": [
+        "G23 - Embedded Single Board Computer with Intel Core i3 / i5 / i7 - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/g23/",
+    "content": [
+        "The G23 is a versatile 4HP/3U single-board computer supporting a multitude of modern serial interfaces according to the CompactPCI Serial standard. It is thus perfectly suited for data-intensive applications which require high computing-power. The CPU card is equipped with the Intel fourth-generation Core i7 processor running at up to 3.4 GHz maximum turbo frequency and offering the latest multi-core processor architecture from Intel with full 64-bit support. The processor frequency can be stepped down via the BIOS to lower power consumption and make the board more suitable for high temperatures. The G23 supports the Intel Active Management technology which makes it possible to access the board via the network even when it is in soft-off or standby state.",
+        " For system security, a Trusted Platform Module is assembled on the board.",
+        " The memory configuration of the G23 includes a state-of-the-art fast DDR3 DRAM which is soldered to the board to guarantee optimum shock and vibration resistance. An mSATA disk connected via a SATA channel and a microSD card device which is connected via a USB interface offer nearly unlimited space for user applications.",
+        " The board delivers an excellent graphics performance. Two DisplayPort interfaces are accessible at the board front.",
+        " Using an external adapter two HDMI or two DVI ports can also be realized. In addition the standard front I/O comprises two PCIe-driven Gigabit Ethernet and two USB 3.2 Gen 1x1 ports. Serial interfaces at the rear I/O connectors are 6 USB 2.0, 2 USB 3.2 Gen 1x1, 5 SATA interfaces, one DisplayPort or HDMI, 5 PCI Express x1 links, and two PEG x8 links. Up to eight Gigabit Ethernet interfaces can be implemented using a rear I/O adapter board.",
+        " A board management controller provides thermal supervision of the processor and a watchdog for the operating system.",
+        " The G23 operates in Windows and Linux environments as well as under real-time operating systems that support Intel's multi-core architecture. The InsydeH2O EFI BIOS was specially designed for embedded system applications.",
+        " The G23 comes with a tailored passive heat sink within 4 HP height. All components are soldered for protection against shock and vibration according to applicable DIN, EN or IEC industry standards. As an option, the board can be equipped with an M12 Ethernet connector. The G23 is also ready for coating so that it can be used in humid and dusty environments and has a guaranteed minimum standard availability of 7 years. These features make the G23 perfectly suited for harsh environments.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}

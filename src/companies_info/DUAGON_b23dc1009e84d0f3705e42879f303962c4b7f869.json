@@ -1,0 +1,17 @@
+{
+    "title": [
+        "F12N - PowerPC MPC5200B CPU Board - duagon"
+    ],
+    "url": "https://www.duagon.com/cn/products/details/f12n/",
+    "content": [
+        "Equipped with the MPC5200B PowerPC, the F12N single-board computer is a versatile 3U Eurocard CompactPCI board that operates at up to 400 MHz and 700 MIPS. The F12N is designed especially for systems which require low power consumption and mechanical robustness. With the processor consuming less than 1 W, the board is delivered for -40 to +85°C operation temperature. All components on the board are soldered. The F12N is thus well placed as a rugged computing platform for mobile applications, offering thewhole world of Linux based software and real-time operating support for VxWorks and QNX.",
+        " The CPU card is equipped with an onboard soldered SDRAM of up to 256 MB and up to 1 GB NAND Flash as well as with 16 MB additional SDRAM, up to 8 MB boot Flash and 2 MB battery-backed SRAM.",
+        " The SBC provides two Fast Ethernet interfaces, one serial line and USB 1.1 at its front panel. As an alternative to RJ45, D-Sub connectors guarantee reliable functions also in harsh environments. Two CAN controllers with V2.0A/BCAN protocol are included in the MPC5200B and are accessible via SA-Adapters. A second serial interface can be accessed using an SA-Adapter on the F12N. (E)IDE and GPIO are also on board.",
+        " The large FPGA on the F12N allows to realize additional user-defined functions such as graphics, touch, further serial interfaces, further CAN bus controllers, binary I/O etc. for the needs of the individual application in a very flexible way. Before boot-up of the system, the FPGA is loaded from boot Flash. Updates ofthe FPGA contents can be made inside the boot Flash during operation. The FPGA functions can be physically implemented by using SA-Adapters. A maximum of 8 SA-Adapters can be used on the F12N and I/O can be made accessible at the front panel.",
+        " Equipped with a PCI-bridge chip, the F12N offers a full CompactPCI interface (system slot functionality) for reliable system expansion.",
+        " The F12N comes with MENMON support. This firmware/BIOS can be used for bootstrapping operating systems (from disk, Flash or network), for hardware testing, or for debugging applications without running any operating system.",
+        "Login",
+        "\n\n\t\t\t\t\t\t\t\tForgot your password?\n\t\t\t\t\t\t\t\n",
+        "\nSign Up\n"
+    ]
+}
