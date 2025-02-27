@@ -19,6 +19,7 @@ class WebCrawler:
         page_marker="site",
         pagenames_to_exclude=None,
         fresh_download: bool = False,
+        baseurls_to_exclude: list[str] = None,
     ):
         self.root = root
         self.parent_folder = parent_folder
@@ -26,6 +27,7 @@ class WebCrawler:
         self.max_pages = max_pages
         self.page_marker = page_marker
         self.pagenames_to_exclude = pagenames_to_exclude if pagenames_to_exclude else []
+        self.baseurls_to_exclude = baseurls_to_exclude if baseurls_to_exclude else []
         self.visited_urls = set()
         self.json_files = []
         self.fresh_download = fresh_download
@@ -68,7 +70,7 @@ class WebCrawler:
         while stack and len(self.json_files) < self.max_pages:
             url = stack.pop()
 
-            if url in self.visited_urls:
+            if url in self.visited_urls or self.are_baseurls_in_url(url, self.baseurls_to_exclude):
                 continue
             self.visited_urls.add(url)
 
@@ -90,14 +92,27 @@ class WebCrawler:
                 with open(file_links_path, "r") as f:
                     links = json.load(f)
 
-            pages_not_allowed = set(self.pagenames_to_exclude)
             for link in links:
-                if set(link.split("/")).intersection(pages_not_allowed):
+                if self.are_pagenames_in_link(link, self.pagenames_to_exclude):
                     continue
 
                 full_link = urljoin(url, link)
                 if full_link not in self.visited_urls and "http" in full_link:
                     stack.append(full_link)
+
+    @staticmethod
+    def are_baseurls_in_url(url: str, baseurls: list[str]):
+        url_split_set = set(url.split('.'))
+        base_urls_set = set(baseurls)
+        set_intersection = url_split_set.intersection(base_urls_set)
+        return len(set_intersection) != 0
+
+    @staticmethod
+    def are_pagenames_in_link(link: str, pagenames: list[str]):
+        link_split_set = set(link.split("/"))
+        page_names_set = set(pagenames)
+        set_intersection = link_split_set.intersection(page_names_set)
+        return len(set_intersection) != 0
 
     def most_common_sentences_in_file(
         self,

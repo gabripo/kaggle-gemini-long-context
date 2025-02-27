@@ -22,6 +22,7 @@ def download_info_companies(
                 numPages=numPagesToDownload,
                 pageMarker=companyName,
                 pagenamesToExclude=["contact-us"],
+                baseurlsToExclude=["qnx", "blackberry"],
             )
         elif method == "OOP":
             crawler = WebCrawler(
@@ -31,6 +32,7 @@ def download_info_companies(
                 max_pages=numPagesToDownload,
                 page_marker=companyName,
                 pagenames_to_exclude=["contact-us"],
+                baseurls_to_exclude=["qnx", "blackberry"],
             )
             crawler.get_text_from_webpages()
             companyInfoText = crawler.text_from_file

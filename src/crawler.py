@@ -65,6 +65,7 @@ def download_all_pages(
     pageMarker: str = "site",
     pagenamesToExclude: list[str] = [],
     freshDownload: bool = False,
+    baseurlsToExclude: list[str] = None,
 ) -> list[str]:
     """
     Recursive function to download pages and subpages
@@ -76,7 +77,7 @@ def download_all_pages(
     while stack and len(jsonFiles) < maxPages:
         url = stack.pop()
 
-        if url in visitedUrls:
+        if url in visitedUrls or are_baseurls_in_url(url, baseurlsToExclude):
             continue
         visitedUrls.add(url)
 
@@ -98,9 +99,8 @@ def download_all_pages(
             with open(fileLinksPath, "r") as f:
                 links = json.load(f)
 
-        pagesNotAllowed = set(pagenamesToExclude)
         for link in links:
-            if set(link.split("/")).intersection(pagesNotAllowed):
+            if are_pagenames_in_link(link, pagenamesToExclude):
                 continue
 
             fullLink = urljoin(url, link)
@@ -109,6 +109,17 @@ def download_all_pages(
 
     return jsonFiles
 
+def are_baseurls_in_url(url: str, baseurls: list[str]):
+    url_split_set = set(url.split('.'))
+    base_urls_set = set(baseurls)
+    set_intersection = url_split_set.intersection(base_urls_set)
+    return len(set_intersection) != 0
+
+def are_pagenames_in_link(link: str, pagenames: list[str]):
+    link_split_set = set(link.split("/"))
+    page_names_set = set(pagenames)
+    set_intersection = link_split_set.intersection(page_names_set)
+    return len(set_intersection) != 0
 
 def most_common_sentences_in_file(
     jsonFilePath: str, alreadyCommonWords: set = set(), frequencyThreshold: int = 1
@@ -280,6 +291,7 @@ def get_text_from_webpages(
     pageMarker: str = "site",
     pagenamesToExclude: list[str] = [],
     freshDownload: bool = False,
+    baseurlsToExclude: list[str] = None,
 ) -> str:
     os.makedirs(savePath, exist_ok=True)
 
@@ -291,6 +303,7 @@ def get_text_from_webpages(
         pageMarker,
         pagenamesToExclude,
         freshDownload,
+        baseurlsToExclude,
     )
 
     mergedJsonName = pageMarker + "_merged.json"
